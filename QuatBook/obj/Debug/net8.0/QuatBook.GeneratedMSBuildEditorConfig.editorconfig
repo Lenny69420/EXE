@@ -9,161 +9,161 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QuatBook
 build_property.RootNamespace = QuatBook
-build_property.ProjectDir = D:\GitHub\EXE\QuatBook\
+build_property.ProjectDir = C:\Users\Admin\Documents\GitHub\EXE\QuatBook\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\GitHub\EXE\QuatBook
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Documents\GitHub\EXE\QuatBook
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/GitHub/EXE/QuatBook/Views/Account/Login.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Account/Register.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Cart/Checkout.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Cart/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDaGVja291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Cart/CheckoutWithVietQR.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Cart/CheckoutWithVietQR.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDaGVja291dFdpdGhWaWV0UVIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Cart/Index.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Common/Header/SearchHeader.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Common/Header/SearchHeader.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXEhlYWRlclxTZWFyY2hIZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Common/Product/Pagination.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Common/Product/Pagination.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbW9uXFByb2R1Y3RcUGFnaW5hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Home/Index.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Home/PageNotFound.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Home/PageNotFound.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWdlTm90Rm91bmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Home/Privacy.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Manager/Categories.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Manager/Categories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxDYXRlZ29yaWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Manager/Orders.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Manager/Orders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxPcmRlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Manager/Profile.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Manager/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Manager/Shop.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Manager/Shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Manager/Statistics.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Manager/Statistics.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxTdGF0aXN0aWNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Product/Detail.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Product/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Product/Index.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Product/ProductItem.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Product/ProductItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0SXRlbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Product/Search.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Product/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/Components/Cart/Default.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/Components/Cart/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2FydFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/Components/MenuAuthor/Default.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/Components/MenuAuthor/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudUF1dGhvclxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/Components/MenuCategory/Default.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/Components/MenuCategory/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudUNhdGVnb3J5XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/Error.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/_AddProductModal.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/_AddProductModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZGRQcm9kdWN0TW9kYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/_CreateCategoryModal.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/_CreateCategoryModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DcmVhdGVDYXRlZ29yeU1vZGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/_EditCategoryModal.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/_EditCategoryModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FZGl0Q2F0ZWdvcnlNb2RhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/_EditProductModal.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/_EditProductModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FZGl0UHJvZHVjdE1vZGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/_EditProfileModal.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/_EditProfileModal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FZGl0UHJvZmlsZU1vZGFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/_Footer.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/_LayoutCustomer.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/_LayoutCustomer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDdXN0b21lci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/_LayoutManager.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/_LayoutManager.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRNYW5hZ2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/_ListProduct.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/_ListProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MaXN0UHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/_OrderDetails.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/_OrderDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9PcmRlckRldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/_ViewImports.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/_ViewStart.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/GitHub/EXE/QuatBook/Views/Shared/_Layout.cshtml]
+[C:/Users/Admin/Documents/GitHub/EXE/QuatBook/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-otzzbx18ek
