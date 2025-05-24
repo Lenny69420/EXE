@@ -11,6 +11,8 @@
         public DateTime AddedTime { get; set; } // Thêm trường này
 
         //Test
+
+        //Test2
     }
 
     public class CartModel
