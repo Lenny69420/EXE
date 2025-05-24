@@ -1,0 +1,896 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\dto\\menuauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\dto\\menuauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\dto\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\dto\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\service\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\service\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\service\\ivietqrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\service\\ivietqrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\dto\\menucategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\dto\\menucategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\views\\cart\\checkoutwithvietqr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\views\\cart\\checkoutwithvietqr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\service\\vietqrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\service\\vietqrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 116,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:27:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{99a11807-c5db-4877-ad35-09b56a044012}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{9a7cebbb-dc5c-4986-bc49-962da46aa506}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0504ff91-9d61-11d0-a794-00a0c9110051}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1377497384:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1928210406:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:350743133:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{588470cc-84f8-4a57-9ac4-86bca0625ff4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:38:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:69:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:35:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuAuthorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\MenuAuthorDTO.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Dto\\MenuAuthorDTO.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\MenuAuthorDTO.cs",
+              "RelativeToolTip": "QuatBook\\Dto\\MenuAuthorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:13:12.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckoutDTO.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\CheckoutDTO.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Dto\\CheckoutDTO.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\CheckoutDTO.cs",
+              "RelativeToolTip": "QuatBook\\Dto\\CheckoutDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:13:12.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Dto\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\LoginDTO.cs",
+              "RelativeToolTip": "QuatBook\\Dto\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:13:11.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IVnPayService.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Service\\IVnPayService.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Service\\IVnPayService.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Service\\IVnPayService.cs",
+              "RelativeToolTip": "QuatBook\\Service\\IVnPayService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:13:05.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "QuatBook\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:59.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\Category.cs",
+              "RelativeToolTip": "QuatBook\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:58.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "QuatBook\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:57.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MenuCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\MenuCategoryDTO.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Dto\\MenuCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\MenuCategoryDTO.cs",
+              "RelativeToolTip": "QuatBook\\Dto\\MenuCategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:52.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\Product.cs",
+              "RelativeToolTip": "QuatBook\\Models\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:18.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IVietQRService.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Service\\IVietQRService.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Service\\IVietQRService.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Service\\IVietQRService.cs",
+              "RelativeToolTip": "QuatBook\\Service\\IVietQRService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T02:34:24.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "QuatBook\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:09.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\ManagerController.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Controllers\\ManagerController.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\ManagerController.cs",
+              "RelativeToolTip": "QuatBook\\Controllers\\ManagerController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:09.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "QuatBook\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:08.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "QuatBook\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:06.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CheckoutWithVietQR.cshtml",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Views\\Cart\\CheckoutWithVietQR.cshtml",
+              "RelativeDocumentMoniker": "QuatBook\\Views\\Cart\\CheckoutWithVietQR.cshtml",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Views\\Cart\\CheckoutWithVietQR.cshtml",
+              "RelativeToolTip": "QuatBook\\Views\\Cart\\CheckoutWithVietQR.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T03:01:11.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\CartController.cs",
+              "RelativeToolTip": "QuatBook\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAPUBAAAAAAAAAAAqwBECAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T02:36:33.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\appsettings.json",
+              "RelativeDocumentMoniker": "QuatBook\\appsettings.json",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\appsettings.json",
+              "RelativeToolTip": "QuatBook\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T02:53:03.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "QuatBook\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "QuatBook\\Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAUwL0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T02:36:48.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VietQRService.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Service\\VietQRService.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Service\\VietQRService.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Service\\VietQRService.cs",
+              "RelativeToolTip": "QuatBook\\Service\\VietQRService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwEkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T02:35:04.855Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 239,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:29:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:34:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{80c411e8-fd5e-4b16-914b-0d9d84172cc1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{93c5e7ad-af06-49e6-a756-b8f3eaca790d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:30:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:31:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 239,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+﻿@using QuatBook.Dto
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<ProductDTO>
+<style>
+    .pagination-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+    }
+
+        .pagination li {
+            margin: 5px;
+        }
+
+            .pagination li a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 40px;
+                height: 40px;
+                font-size: 16px;
+                font-weight: bold;
+                text-decoration: none;
+                border-radius: 50%;
+                border: 2px solid #007bff;
+                color: #007bff;
+                transition: all 0.3s ease-in-out;
+                background-color: white;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            }
+
+                .pagination li a:hover {
+                    background-color: #007bff;
+                    color: white;
+                    transform: scale(1.1);
+                    box-shadow: 3px 3px 10px rgba(0, 123, 255, 0.5);
+                }
+
+        .pagination .active a {
+            background-color: #007bff;
+            color: white;
+            transform: scale(1.1);
+            box-shadow: 3px 3px 15px rgba(0, 123, 255, 0.5);
+        }
+
+        .pagination .disabled a {
+            color: gray;
+            border-color: gray;
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
+
+        /* Căn chỉnh nút Previous và Next */
+        .pagination li:first-child a,
+        .pagination li:last-child a {
+            border-radius: 50%;
+            font-size: 18px;
+        }
+</style>
+
+<div class="pagination-container">
+    <ul class="pagination">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { categoryId = ViewBag.CategoryId, authorId = ViewBag.AuthorId, page }),
+                 new PagedListRenderOptions
+        {
+            LiElementClasses = new string[] { "page-item" },
+            PageClasses = new string[] { "page-link" }
+        })
+    </ul>
+</div>
+

@@ -1,0 +1,171 @@
+﻿@model IEnumerable<QuatBook.Models.Product>
+<!-- Add Product Modal -->
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="addModalLabel">
+                    <i class="fas fa-plus-circle mr-2"></i>Add New Book
+                </h5>
+                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="AddProduct" asp-controller="Product" method="post" enctype="multipart/form-data" id="addProductForm">
+                    <div class="row">
+                        <!-- Left column -->
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label for="bookName">Book Title</label>
+                                <input type="text" class="form-control" id="bookName" name="BookName" placeholder="Enter book title" required />
+                                <small class="form-text text-muted">Enter the complete title of the book</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="description">Description</label>
+                                <textarea class="form-control" id="description" name="Description" rows="3" placeholder="Enter book description"></textarea>
+                                <small class="form-text text-muted">Provide a brief summary of the book</small>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="quantity">Quantity</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="fas fa-boxes"></i></span>
+                                            </div>
+                                            <input type="number" class="form-control" id="quantity" name="Quantity" min="1" placeholder="0" required />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="price">Price</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="fas fa-dollar-sign"></i></span>
+                                            </div>
+                                            <input type="number" class="form-control" id="price" name="Price" step="0.01" min="0" placeholder="0.00" required />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="category">Category</label>
+                                        <select class="form-control" id="category" name="CategoryId" required>
+                                            <option value="">-- Select Category --</option>
+                                            @foreach (var category in ViewBag.Categories)
+                                            {
+                                                <option value="@category.CategoryId">@category.CategoryName</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="author">Author</label>
+                                        <select class="form-control" id="author" name="AuthorId" required>
+                                            <option value="">-- Select Author --</option>
+                                            @if (ViewBag.Authors != null && ViewBag.Authors.Count > 0)
+                                            {
+                                                @foreach (var author in ViewBag.Authors)
+                                                {
+                                                    <option value="@author.AuthorId">@author.AuthorName</option>
+                                                }
+                                            }
+                                            else
+                                            {
+                                                <option disabled>No authors available</option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="created">Publication Date</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-calendar"></i></span>
+                                    </div>
+                                    <input type="date" class="form-control" id="created" name="Created" required />
+                                </div>
+                                <small class="form-text text-muted">Enter the date the book was published</small>
+                            </div>
+                        </div>
+
+                        <!-- Right column for image upload -->
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header bg-light">
+                                    <h6 class="mb-0">Book Cover Image</h6>
+                                </div>
+                                <div class="card-body text-center">
+                                    <div class="image-preview mb-3">
+                                        <img id="imagePreview" src="/img/book-placeholder.png" alt="Book Cover Preview" class="img-fluid" style="max-height: 200px; width: auto;">
+                                    </div>
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="image" name="ImageFile" accept="image/*" required onchange="previewImage(this)">
+                                        <label class="custom-file-label" for="image">Choose file</label>
+                                    </div>
+                                    <small class="form-text text-muted mt-2">Recommended size: 600x900 pixels. Max file size: 2MB</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            <i class="fas fa-times mr-1"></i>Cancel
+                        </button>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-save mr-1"></i>Save Product
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Function to preview the selected image
+    function previewImage(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function(e) {
+                $('#imagePreview').attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+
+            // Update the file label with the selected file name
+            var fileName = input.files[0].name;
+            $(input).next('.custom-file-label').html(fileName);
+        }
+    }
+
+    // Initialize the form validation
+    $(document).ready(function() {
+        // Display the filename in the custom file input
+        $('.custom-file-input').on('change', function() {
+            var fileName = $(this).val().split('\\').pop();
+            $(this).next('.custom-file-label').html(fileName);
+        });
+
+        // Form validation
+        $('#addProductForm').on('submit', function(event) {
+            if (!this.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            $(this).addClass('was-validated');
+        });
+    });
+</script>

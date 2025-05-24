@@ -1,0 +1,66 @@
+﻿@model QuatBook.Models.Order
+@{
+    ViewData["Title"] = "VietQR Payment";
+    Layout = "_LayoutCustomer";
+    string qrCodeUrl = ViewBag.QrCodeUrl as string ?? string.Empty; // Default to empty string if null
+}
+
+<div class="breadcrumbs-area mb-5">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">VietQR Payment</li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<div class="entry-header-area mb-5">
+    <div class="container">
+        <h1 class="entry-title">VietQR Payment</h1>
+    </div>
+</div>
+
+<div class="checkout-area mb-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="card p-4 shadow-sm rounded text-center">
+                    <h3 class="mb-4">Scan to Pay</h3>
+                    @if (Model != null)
+                    {
+                        <p>Please scan the QR code below using your banking app to complete the payment for Order #@Model.OrderId.</p>
+                        @if (!string.IsNullOrEmpty(qrCodeUrl))
+                        {
+                            <img src="@qrCodeUrl" alt="VietQR Code" class="img-fluid mb-4" style="max-width: 300px;" />
+                        }
+                        else
+                        {
+                            <p class="text-danger">Unable to generate QR code. Please try again or contact support.</p>
+                        }
+                        <p><strong>Amount:</strong> @(Model.Ammount.HasValue ? ((int)Model.Ammount.Value).ToString("N0") : "N/A") VND</p>
+                        <p><strong>Order ID:</strong> @Model.OrderId</p>
+                        <p><strong>Note:</strong> After payment, please wait for confirmation.</p>
+                    }
+                    else
+                    {
+                        <p class="text-danger">Order details not available. Please try again.</p>
+                    }
+                    <a href="/" class="btn btn-primary mt-3">Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        border: 1px solid #e9ecef;
+    }
+
+    img {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+</style>

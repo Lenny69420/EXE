@@ -1,0 +1,147 @@
+﻿@model QuatBook.Dto.ProfileDTO
+@{
+    ViewData["Title"] = "User Profile";
+    Layout = "_LayoutManager";
+}
+
+<div id="content-wrapper" class="py-5 bg-light">
+    <div class="container">
+        <!-- Breadcrumbs -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-white rounded shadow-sm mb-4">
+                <li class="breadcrumb-item">
+                    <a href="@Url.Action("Shop", "Manager")">Dashboard</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Profile</li>
+            </ol>
+        </nav>
+
+        <!-- Profile Section -->
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="card border-0 shadow-sm rounded-lg overflow-hidden">
+                    <div class="card-body p-5">
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                @TempData["SuccessMessage"]
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        }
+                        @if (TempData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                @TempData["ErrorMessage"]
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        }
+
+                        <div class="row align-items-center">
+                            <!-- Left: Profile Picture -->
+                            <div class="col-md-4 text-center">
+                                <div class="mb-4">
+                                    <img src="@(Model.Image != null ? $"/img/profile/{Model.Image}" : "/img/default-profile.png")"
+                                         alt="Profile Picture" class="rounded-circle border border-3 border-white shadow-lg"
+                                         style="width: 150px; height: 150px; object-fit: cover;">
+                                </div>
+                                <h4 class="fw-bold">@Model.Username</h4>
+                                <p class="text-muted mb-0">@(Model.RoleId == 1 ? "Admin" : "User")</p>
+                            </div>
+
+                            <!-- Right: Profile Details -->
+                            <div class="col-md-8">
+                                <h3 class="fw-bold text-primary mb-4">Profile Details</h3>
+                                <div class="bg-white p-4 rounded shadow-sm">
+                                    <dl class="row mb-0">
+                                        <dt class="col-sm-4 text-muted fw-semibold">Email</dt>
+                                        <dd class="col-sm-8">@Model.Email</dd>
+
+                                        <dt class="col-sm-4 text-muted fw-semibold">Phone</dt>
+                                        <dd class="col-sm-8">@Model.Phone</dd>
+
+                                        <dt class="col-sm-4 text-muted fw-semibold">Address</dt>
+                                        <dd class="col-sm-8">@Model.Address</dd>
+
+                                        <dt class="col-sm-4 text-muted fw-semibold">Gender</dt>
+                                        <dd class="col-sm-8">@(Model.Gender == true ? "Male" : "Female")</dd>
+
+                                        <dt class="col-sm-4 text-muted fw-semibold">Birth Date</dt>
+                                        <dd class="col-sm-8">@Model.Birth?.ToString("dd/MM/yyyy")</dd>
+
+                                        <dt class="col-sm-4 text-muted fw-semibold">Role</dt>
+                                        <dd class="col-sm-8">@(Model.RoleId == 1 ? "Admin" : "User")</dd>
+                                    </dl>
+                                </div>
+
+                                <!-- Edit Button -->
+                                <div class="mt-4 text-end">
+                                    <button type="button" class="btn btn-primary btn-lg shadow-sm" onclick="loadEditProfileModal()">
+                                        <i class="fas fa-edit me-2"></i> Edit Profile
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Placeholder -->
+<div id="editProfileModalPlaceholder"></div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script>
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    <script>
+        // Load form chỉnh sửa vào modal
+        function loadEditProfileModal() {
+            $.ajax({
+                url: '@Url.Action("EditProfile", "Manager")',
+                type: 'GET',
+                success: function (data) {
+                    $('#editProfileModalPlaceholder').html(data);
+                    $('#editProfileModal').modal('show');
+                },
+                error: function (xhr, status, error) {
+                    alert('Error loading edit form: ' + error);
+                }
+            });
+        }
+
+        // Submit form trong modal
+        function submitEditProfileForm() {
+            var form = $('#editProfileForm');
+            var formData = new FormData(form[0]);
+
+            $.ajax({
+                url: '@Url.Action("EditProfile", "Manager")',
+                type: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (response) {
+                    if (response.success) {
+                        $('#editProfileModal').modal('hide');
+                        location.reload(); // Reload trang để cập nhật thông tin
+                    } else {
+                        if (response.errors) {
+                            // Hiển thị lỗi validation
+                            alert('Validation failed: ' + response.errors.join('\n'));
+                        } else {
+                            alert(response.message);
+                        }
+                    }
+                },
+                error: function (xhr, status, error) {
+                    alert('Error updating profile: ' + error);
+                }
+            });
+        }
+    </script>
+}

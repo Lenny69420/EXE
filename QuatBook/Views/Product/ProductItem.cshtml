@@ -1,0 +1,164 @@
+﻿@model IEnumerable<QuatBook.Dto.ProductDTO>
+
+<script src="~/js/signalr/dist/browser/signalr.min.js"></script>
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+
+@if (Model != null && Model.Any())
+{
+    <h6>Have <b id="productCount">@Model.Count()</b> product.</h6>
+    <div id="productContainer" class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6" data-book-id="@product.BookId">
+                <div class="product-wrapper mb-40">
+                    <div class="product-img">
+                        <a asp-action="Detail" asp-controller="Product" asp-route-bookId="@product.BookId">
+                            <img src="~/img/product/@product.Image" alt="@product.BookName" class="primary" />
+                        </a>
+                        <div class="quick-view">
+                            <a class="action-view" href="#" data-bs-target="#productModal" data-bs-toggle="modal" title="Quick View">
+                                <i class="fa fa-search-plus"></i>
+                            </a>
+                        </div>
+                        <div class="product-flag">
+                            <ul>
+                                <li><span class="sale">new</span></li>
+                                <li><span class="discount-percentage">-5%</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product-details text-center">
+                        <span style="display: inline-block; background-color: #e74c3c; color: #ffffff; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 15px; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); transition: all 0.3s ease-in-out;" onmouseover="this.style.backgroundColor='#c0392b'; this.style.transform='scale(1.05)';" onmouseout="this.style.backgroundColor='#e74c3c'; this.style.transform='scale(1)';">
+                            @product.CategoryName
+                        </span>
+                        <h4>
+                            <a asp-action="Detail" asp-controller="Product" asp-route-bookId="@product.BookId">
+                                @product.BookName
+                            </a>
+                        </h4>
+                        <div class="product-price">
+                            <ul>
+                                <li>@product.Price VND</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="product-link">
+                        <div class="product-button">
+                            <a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@product.BookId" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                        </div>
+                        <div class="add-to-link">
+                            <ul>
+                                <li><a href="product-details.html" title="Details"><i class="fa fa-external-link"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No products to display.</p>
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/productHub")
+        .configureLogging(signalR.LogLevel.Information)
+        .build();
+
+    connection.on("RefreshProducts", function () {
+        console.log("Received RefreshProducts signal");
+        updateProductList();
+    });
+
+    function updateProductList() {
+        $.ajax({
+            url: '/Product/GetActiveProducts',
+            type: 'GET',
+            success: function (products) {
+                const container = $('#productContainer');
+                const currentIds = container.find('div[data-book-id]').map((_, el) => $(el).data('book-id')).get();
+                const newIds = products.map(p => p.bookId);
+
+                // Xóa sản phẩm không còn active
+                currentIds.forEach(id => {
+                    if (!newIds.includes(id)) {
+                        container.find(`div[data-book-id='${id}']`).remove();
+                    }
+                });
+
+                // Thêm hoặc cập nhật sản phẩm
+                products.forEach(product => {
+                    const existingProduct = container.find(`div[data-book-id='${product.bookId}']`);
+                    if (existingProduct.length) {
+                        existingProduct.find('h4 a').text(product.bookName);
+                        existingProduct.find('.product-img img').attr('src', `/img/product/${product.image}`);
+                        existingProduct.find('.product-price li').text(`${product.price} VND`);
+                        existingProduct.find('.product-details span').text(product.categoryName);
+                    } else {
+                        const newProductHtml = `
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6" data-book-id="${product.bookId}">
+                                <div class="product-wrapper mb-40">
+                                    <div class="product-img">
+                                        <a href="/Product/Detail?bookId=${product.bookId}">
+                                            <img src="/img/product/${product.image}" alt="${product.bookName}" class="primary" />
+                                        </a>
+                                        <div class="quick-view">
+                                            <a class="action-view" href="#" data-bs-target="#productModal" data-bs-toggle="modal" title="Quick View">
+                                                <i class="fa fa-search-plus"></i>
+                                            </a>
+                                        </div>
+                                        <div class="product-flag">
+                                            <ul>
+                                                <li><span class="sale">new</span></li>
+                                                <li><span class="discount-percentage">-5%</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product-details text-center">
+                                        <span style="display: inline-block; background-color: #e74c3c; color: #ffffff; font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 15px; text-transform: uppercase; letter-spacing: 0.5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); transition: all 0.3s ease-in-out;" onmouseover="this.style.backgroundColor='#c0392b'; this.style.transform='scale(1.05)';" onmouseout="this.style.backgroundColor='#e74c3c'; this.style.transform='scale(1)';">
+                                            ${product.categoryName}
+                                        </span>
+                                        <h4>
+                                            <a href="/Product/Detail?bookId=${product.bookId}">${product.bookName}</a>
+                                        </h4>
+                                        <div class="product-price">
+                                            <ul>
+                                                <li>${product.price} VND</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product-link">
+                                        <div class="product-button">
+                                            <a href="/Cart/AddToCart?id=${product.bookId}" title="Add to cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        </div>
+                                        <div class="add-to-link">
+                                            <ul>
+                                                <li><a href="product-details.html" title="Details"><i class="fa fa-external-link"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>`;
+                        container.append(newProductHtml);
+                    }
+                });
+
+                $('#productCount').text(products.length);
+            },
+            error: function (xhr, status, error) {
+                console.log('Error fetching products: ' + error);
+            }
+        });
+    }
+
+    connection.start()
+        .then(() => console.log("SignalR connected"))
+        .catch(err => console.error("SignalR connection error: ", err));
+</script>

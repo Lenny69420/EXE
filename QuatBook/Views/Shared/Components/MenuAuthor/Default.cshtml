@@ -1,0 +1,16 @@
+﻿@model IEnumerable<QuatBook.Dto.MenuAuthorDTO>
+<div class="left-menu mb-30">
+	<ul>
+		@foreach (var item in Model)
+		{
+			<li>
+				<a asp-controller="Product"
+				   asp-action="Index"
+				   asp-route-authorId="@item.AuthorId">
+				   @item.AuthorName
+				   </a>
+			</li>
+		}
+
+	</ul>
+</div>

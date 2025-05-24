@@ -1,0 +1,171 @@
+﻿@model QuatBook.Models.Product
+
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-warning text-white">
+                <h5 class="modal-title" id="editModalLabel">
+                    <i class="fas fa-edit mr-2"></i>Edit Book
+                </h5>
+                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="UpdateProduct" asp-controller="Product" method="post" enctype="multipart/form-data" id="editProductForm">
+                    <input type="hidden" name="BookId" value="@Model.BookId" />
+                    <div class="row">
+                        <!-- Left column -->
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <label for="bookName">Book Title</label>
+                                <input type="text" class="form-control" id="bookName" name="BookName"
+                                       value="@Model.BookName" placeholder="Enter book title" required />
+                                <small class="form-text text-muted">Enter the complete title of the book</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="description">Description</label>
+                                <textarea class="form-control" id="description" name="Description" rows="3"
+                                          placeholder="Enter book description">@Model.Description</textarea>
+                                <small class="form-text text-muted">Provide a brief summary of the book</small>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="quantity">Quantity</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="fas fa-boxes"></i></span>
+                                            </div>
+                                            <input type="number" class="form-control" id="quantity" name="Quantity"
+                                                   value="@Model.Quantity" min="1" placeholder="0" required />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="price">Price</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="fas fa-dollar-sign"></i></span>
+                                            </div>
+                                            <input type="number" class="form-control" id="price" name="Price"
+                                                   value="@Model.Price" step="0.01" min="0" placeholder="0.00" required />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="category">Category</label>
+                                        <select class="form-control" id="category" name="CategoryId" required>
+                                            <option value="">-- Select Category --</option>
+                                            @foreach (var category in ViewBag.Categories)
+                                            {
+                                                var isSelected = Model.CategoryId == category.CategoryId ? "selected" : "";
+                                                <option value="@category.CategoryId" selected="@isSelected">
+                                                    @category.CategoryName
+                                                </option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="author">Author</label>
+                                        <select class="form-control" id="author" name="AuthorId" required>
+                                            <option value="">-- Select Author --</option>
+                                            @foreach (var author in ViewBag.Authors)
+                                            {
+                                                var isSelected = Model.AuthorId == author.AuthorId ? "selected" : "";
+                                                <option value="@author.AuthorId" selected="@isSelected">
+                                                    @author.AuthorName
+                                                </option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="created">Publication Date</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-calendar"></i></span>
+                                    </div>
+                                    <input type="date" class="form-control" id="created" name="Created"
+                                           value="@Model.Created" required />
+                                </div>
+                                <small class="form-text text-muted">Enter the date the book was published</small>
+                            </div>
+                        </div>
+
+                        <!-- Right column for image upload -->
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header bg-light">
+                                    <h6 class="mb-0">Book Cover Image</h6>
+                                </div>
+                                <div class="card-body text-center">
+                                    <div class="image-preview mb-3">
+                                        <img id="imagePreview"
+                                             src="@(Model.Image != null ? $"/img/product/{Model.Image}" : "/img/book-placeholder.png")"
+                                             alt="Book Cover Preview" class="img-fluid" style="max-height: 200px; width: auto;">
+                                    </div>
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="image" name="ImageFile"
+                                               accept="image/*" onchange="previewImage(this)" />
+                                        <label class="custom-file-label" for="image">Choose file</label>
+                                    </div>
+                                    <small class="form-text text-muted mt-2">Leave empty to keep current image</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            <i class="fas fa-times mr-1"></i>Cancel
+                        </button>
+                        <button type="submit" class="btn btn-warning">
+                            <i class="fas fa-save mr-1"></i>Update Product
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function previewImage(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                $('#imagePreview').attr('src', e.target.result);
+            }
+            reader.readAsDataURL(input.files[0]);
+            var fileName = input.files[0].name;
+            $(input).next('.custom-file-label').html(fileName);
+        }
+    }
+
+    $(document).ready(function() {
+        $('.custom-file-input').on('change', function() {
+            var fileName = $(this).val().split('\\').pop();
+            $(this).next('.custom-file-label').html(fileName);
+        });
+
+        $('#editProductForm').on('submit', function(event) {
+            if (!this.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            $(this).addClass('was-validated');
+        });
+    });
+</script>

@@ -1,0 +1,348 @@
+﻿@model QuatBook.Dto.ProductDetailDTO
+@{
+    ViewData["Title"] = "Product Detail";
+    Layout = "_LayoutCustomer";
+}
+<!-- breadcrumbs-area-start -->
+<div class="breadcrumbs-area mb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumbs-menu">
+                    <ul>
+                        <li><a href="http://localhost:5211/Product">Home</a></li>
+                        <li><a href="Detail?bookId=@Model.BookId" class="active">product-details: @Model.BookName </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- breadcrumbs-area-end -->
+<!-- product-main-area-start -->
+<div class="product-main-area mb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-12 col-12 order-lg-1 order-1">
+                <!-- product-main-area-start -->
+                <div class="product-main-area">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6 col-12">
+                            <div class="flexslider">
+                                <ul class="slides">
+                                    <li data-thumb="~/img/product/@Model.Image">
+                                        <img src="~/img/product/@Model.Image" alt="woman" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-6 col-12">
+                            <div class="product-info-main">
+                                <div class="page-title">
+                                    <h1>@Model.BookName</h1>
+                                </div>
+                                <div class="product-info-stock-sku">
+                                    <span style="
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;"
+                                          onmouseover="this.style.backgroundColor='#c0392b'; this.style.transform='scale(1.05)';"
+                                          onmouseout="this.style.backgroundColor='#e74c3c'; this.style.transform='scale(1)';">
+                                        @Model.CategoryName
+                                    </span>
+                                    <div class="product-attribute">
+                                        <span>Count: @Model.Quantity</span>
+                                    </div>
+                                </div>
+                                <div class="product-reviews-summary">
+                                    <a href="#" class="view">Author: @Model.AuthorName</a>
+                                </div>
+                                @if (Model.Quantity <= 0)
+                                {
+                                    <div class="product-info-price">
+                                        <div class="price-final">
+                                            <span>Hết Hàng</span>
+                                        </div>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="product-info-price">
+                                        <div class="price-final">
+                                            <span>@Model.Price VND</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-add-form">
+                                        <form asp-action="AddToCart" asp-controller="Cart" asp-route-id="@Model.BookId">
+                                            <div class="quality-button" style="display: flex; align-items: center; justify-content: center; width: 100px; border: 2px solid #ff6600; border-radius: 8px; padding: 5px; background-color: #fff;">
+                                                <input class="qty" type="number" value="1" name="quantity" min="1" max="@Model.Quantity"
+                                                       style="width: 60px; height: 35px; text-align: center; font-size: 16px; border: none; outline: none; background: transparent; font-weight: bold; color: #333;">
+                                            </div>
+                                            <button class="btn btn-primary" style="width: 150px; height: 50px; background-color: #ff6600; border: none; border-radius: 8px; font-size: 16px; font-weight: bold; color: white; cursor: pointer;">
+                                                🛒 Add to cart
+                                            </button>
+                                        </form>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product-main-area-end -->
+                <!-- product-info-area-start -->
+                <div class="product-info-area mt-80">
+                    <!-- Nav tabs -->
+                    <ul class="nav">
+                        <li><a class="active" href="#Details" data-bs-toggle="tab">Details</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="Details">
+                            <div class="valu">
+                                <p>@Model.Description</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product-info-area-end -->
+                <!-- new-book-area-start -->
+                <div class="new-book-area mt-60">
+                    <div class="section-title text-center mb-30">
+                        <h3>Top Best-Selling Products</h3>
+                    </div>
+                    <div class="tab-active-2 owl-carousel">
+                        @if (ViewBag.BestSellingProducts != null && ViewBag.BestSellingProducts.Count > 0)
+                        {
+                            @foreach (var product in ViewBag.BestSellingProducts)
+                            {
+                                <!-- single-product-start -->
+                                <div class="product-wrapper">
+                                    <div class="product-img">
+                                        <a asp-action="Detail" asp-controller="Product" asp-route-bookId="@product.BookId">
+                                            <img src="~/img/product/@product.Image" alt="@product.BookName" class="primary" />
+                                        </a>
+                                        <div class="quick-view">
+                                            <a class="action-view" href="#" data-bs-target="#productModal" data-bs-toggle="modal" title="Quick View">
+                                                <i class="fa fa-search-plus"></i>
+                                            </a>
+                                        </div>
+                                        <div class="product-flag">
+                                            <ul>
+                                                <li><span class="sale">Best Seller</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product-details text-center">
+                                        <h4>
+                                            <a asp-action="Detail" asp-controller="Product" asp-route-bookId="@product.BookId">
+                                                @product.BookName
+                                            </a>
+                                        </h4>
+                                        <div class="product-price">
+                                            <ul>
+                                                <li>@product.Price VND</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="product-link">
+                                        <div class="product-button">
+                                            <a asp-action="AddToCart" asp-controller="Cart" asp-route-id="@product.BookId" title="Add to cart">
+                                                <i class="fa fa-shopping-cart"></i>Add to cart
+                                            </a>
+                                        </div>
+                                        <div class="add-to-link">
+                                            <ul>
+                                                <li>
+                                                    <a asp-action="Detail" asp-controller="Product" asp-route-bookId="@product.BookId" title="Details">
+                                                        <i class="fa fa-external-link"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- single-product-end -->
+                            }
+                        }
+                        else
+                        {
+                            <p class="text-center">No best-selling products available.</p>
+                        }
+                    </div>
+                </div>
+                <!-- new-book-area-end -->
+            </div>
+            <div class="col-lg-3 col-md-12 col-12 order-lg-2 order-2">
+                <div class="shop-left">
+                    <div class="left-title mb-20">
+                        <h4>Related Products</h4>
+                    </div>
+                    <div class="random-area mb-30">
+                        <div class="product-active-2 owl-carousel">
+                            <div class="product-total-2">
+                                <div class="single-most-product bd mb-18">
+                                    <div class="most-product-img">
+                                        <a href="#"><img src="~/img/product/20.jpg" alt="book" /></a>
+                                    </div>
+                                    <div class="most-product-content">
+                                        <div class="product-rating">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4><a href="#">Endeavor Daytrip</a></h4>
+                                        <div class="product-price">
+                                            <ul>
+                                                <li>$30.00</li>
+                                                <li class="old-price">$33.00</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-most-product bd mb-18">
+                                    <div class="most-product-img">
+                                        <a href="#"><img src="~/img/product/21.jpg" alt="book" /></a>
+                                    </div>
+                                    <div class="most-product-content">
+                                        <div class="product-rating">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4><a href="#">Savvy Shoulder Tote</a></h4>
+                                        <div class="product-price">
+                                            <ul>
+                                                <li>$30.00</li>
+                                                <li class="old-price">$35.00</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-most-product">
+                                    <div class="most-product-img">
+                                        <a href="#"><img src="~/img/product/22.jpg" alt="book" /></a>
+                                    </div>
+                                    <div class="most-product-content">
+                                        <div class="product-rating">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4><a href="#">Compete Track Tote</a></h4>
+                                        <div class="product-price">
+                                            <ul>
+                                                <li>$35.00</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-total-2">
+                                <div class="single-most-product bd mb-18">
+                                    <div class="most-product-img">
+                                        <a href="#"><img src="~/img/product/23.jpg" alt="book" /></a>
+                                    </div>
+                                    <div class="most-product-content">
+                                        <div class="product-rating">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4><a href="#">Voyage Yoga Bag</a></h4>
+                                        <div class="product-price">
+                                            <ul>
+                                                <li>$30.00</li>
+                                                <li class="old-price">$33.00</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-most-product bd mb-18">
+                                    <div class="most-product-img">
+                                        <a href="#"><img src="~/img/product/24.jpg" alt="book" /></a>
+                                    </div>
+                                    <div class="most-product-content">
+                                        <div class="product-rating">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4><a href="#">Impulse Duffle</a></h4>
+                                        <div class="product-price">
+                                            <ul>
+                                                <li>$70.00</li>
+                                                <li class="old-price">$74.00</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-most-product">
+                                    <div class="most-product-img">
+                                        <a href="#"><img src="~/img/product/22.jpg" alt="book" /></a>
+                                    </div>
+                                    <div class="most-product-content">
+                                        <div class="product-rating">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <h4><a href="#">Fusion Backpack</a></h4>
+                                        <div class="product-price">
+                                            <ul>
+                                                <li>$59.00</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-area mb-30">
+                        <div class="banner-img-2">
+                            <a href="#"><img src="~/img/banner/33.jpg" alt="banner" /></a>
+                        </div>
+                    </div>
+                    <div class="left-title-2 mb-30">
+                        <h2>Compare Products</h2>
+                        <p>You have no items to compare.</p>
+                    </div>
+                    <div class="left-title-2">
+                        <h2>My Wish List</h2>
+                        <p>You have no items in your wish list.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

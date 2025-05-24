@@ -1,0 +1,39 @@
+﻿@model IEnumerable<QuatBook.Dto.ProductDTO>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "_ListProduct";
+}
+
+<!-- breadcrumbs-area-start -->
+@section Breadcrumbs {
+	<div class="breadcrumbs-area mb-70">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="breadcrumbs-menu">
+						<ul>
+							<li><a class="active" href="Product">Home</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+}
+
+<!-- breadcrumbs-area-end -->
+
+
+
+
+
+
+<!-- shop-main-area-start -->
+@if (Model != null && Model.Any())
+{
+	@await Html.PartialAsync("ProductItem", Model)
+}
+else
+{
+	<p>No products available.</p>
+}

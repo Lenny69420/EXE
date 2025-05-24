@@ -1,0 +1,243 @@
+﻿@{
+	Layout = "_LayoutCustomer";
+}
+@using QuatBook.Dto
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<ProductDTO>
+@RenderSection("Styles", required: false)
+<!-- breadcrumbs-area-start -->
+@RenderSection("Breadcrumbs", required: false)
+<!-- breadcrumbs-area-start -->
+<!-- breadcrumbs-area-end -->
+<!-- shop-main-area-start -->
+<div class="shop-main-area mb-70">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-12 col-12 order-lg-1 order-2 mt-sm-50 mt-xs-40">
+				<div class="shop-left">
+
+					@await Component.InvokeAsync("MenuCategory")
+					
+					<div class="left-title mb-20">
+						<h4>Author</h4>
+					</div>
+					@await Component.InvokeAsync("MenuAuthor")
+						
+					<div class="left-title mb-20">
+						<h4>Random</h4>
+					</div>
+					<div class="random-area mb-30">
+						<div class="product-active-2 owl-carousel">
+							<div class="product-total-2">
+								<div class="single-most-product bd mb-18">
+									<div class="most-product-img">
+										<a href="#"><img src="img/product/20.jpg" alt="book" /></a>
+									</div>
+									<div class="most-product-content">
+										<div class="product-rating">
+											<ul>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+											</ul>
+										</div>
+										<h4><a href="#">Endeavor Daytrip</a></h4>
+										<div class="product-price">
+											<ul>
+												<li>$30.00</li>
+												<li class="old-price">$33.00</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-most-product bd mb-18">
+									<div class="most-product-img">
+										<a href="#"><img src="img/product/21.jpg" alt="book" /></a>
+									</div>
+									<div class="most-product-content">
+										<div class="product-rating">
+											<ul>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+											</ul>
+										</div>
+										<h4><a href="#">Savvy Shoulder Tote</a></h4>
+										<div class="product-price">
+											<ul>
+												<li>$30.00</li>
+												<li class="old-price">$35.00</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-most-product">
+									<div class="most-product-img">
+										<a href="#"><img src="img/product/22.jpg" alt="book" /></a>
+									</div>
+									<div class="most-product-content">
+										<div class="product-rating">
+											<ul>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+											</ul>
+										</div>
+										<h4><a href="#">Compete Track Tote</a></h4>
+										<div class="product-price">
+											<ul>
+												<li>$35.00</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="product-total-2">
+								<div class="single-most-product bd mb-18">
+									<div class="most-product-img">
+										<a href="#"><img src="img/product/23.jpg" alt="book" /></a>
+									</div>
+									<div class="most-product-content">
+										<div class="product-rating">
+											<ul>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+											</ul>
+										</div>
+										<h4><a href="#">Voyage Yoga Bag</a></h4>
+										<div class="product-price">
+											<ul>
+												<li>$30.00</li>
+												<li class="old-price">$33.00</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-most-product bd mb-18">
+									<div class="most-product-img">
+										<a href="#"><img src="img/product/24.jpg" alt="book" /></a>
+									</div>
+									<div class="most-product-content">
+										<div class="product-rating">
+											<ul>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+											</ul>
+										</div>
+										<h4><a href="#">Impulse Duffle</a></h4>
+										<div class="product-price">
+											<ul>
+												<li>$70.00</li>
+												<li class="old-price">$74.00</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-most-product">
+									<div class="most-product-img">
+										<a href="#"><img src="img/product/22.jpg" alt="book" /></a>
+									</div>
+									<div class="most-product-content">
+										<div class="product-rating">
+											<ul>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+												<li><a href="#"><i class="fa fa-star"></i></a></li>
+											</ul>
+										</div>
+										<h4><a href="#">Fusion Backpack</a></h4>
+										<div class="product-price">
+											<ul>
+												<li>$59.00</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="banner-area mb-30">
+						<div class="banner-img-2">
+							<a href="#"><img src="img/banner/31.jpg" alt="banner" /></a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-lg-9 col-md-12 col-12 order-lg-2 order-1">
+				<div class="category-image mb-30">
+					<a href="#"><img src="~/img/banner/32.jpg" alt="banner" /></a>
+				</div>
+				<div class="section-title-5 mb-30">
+					<h2>Book</h2>
+				</div>
+				<div class="toolbar mb-30">
+					<div class="shop-tab">
+						<div class="tab-3">
+							<ul class="nav">
+								<li><a class="active" href="#th" data-bs-toggle="tab"><i class="fa fa-th-large"></i>Grid</a></li>
+								<li><a href="#list" data-bs-toggle="tab"><i class="fa fa-bars"></i>List</a></li>
+							</ul>
+						</div>
+						<div class="list-page">
+							<p>Items 1-9 of 11</p>
+						</div>
+					</div>
+					<div class="field-limiter">
+						<div class="control">
+							<span>Show</span>
+							<!-- chosen-start -->
+							<select data-placeholder="Default Sorting" style="width:50px;" class="chosen-select" tabindex="1">
+								<option value="Sorting">1</option>
+								<option value="popularity">2</option>
+								<option value="rating">3</option>
+								<option value="date">4</option>
+							</select>
+							<!-- chosen-end -->
+						</div>
+					</div>
+					<div class="toolbar-sorter">
+						<span>Sort By</span>
+						<select id="sorter" class="sorter-options" data-role="sorter">
+							<option selected="selected" value="position"> Position </option>
+							<option value="name"> Product Name </option>
+							<option value="price"> Price </option>
+						</select>
+						<a href="#"><i class="fa fa-arrow-up"></i></a>
+					</div>
+				</div>
+				<!-- tab-area-start -->
+				<div class="tab-content">
+					<div class="tab-pane fade show active" id="th">
+						<div class="row">
+							@RenderBody()
+
+						</div>
+					</div>
+					
+				</div>
+				<!-- tab-area-end -->
+				<!-- pagination-area-start -->
+				@await Html.PartialAsync("~/Views/Common/Product/Pagination.cshtml")
+				<!-- pagination-area-end -->
+			</div>
+		</div>
+	</div>
+</div>
+@RenderSection("Scripts", required: false)
+<!-- shop-main-area-end -->

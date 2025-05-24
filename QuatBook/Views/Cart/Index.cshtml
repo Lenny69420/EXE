@@ -1,0 +1,157 @@
+﻿@model IEnumerable<QuatBook.Dto.CartDTO>
+@{
+	ViewData["Title"] = "Cart";
+}
+<!-- breadcrumbs-area-start -->
+<div class="breadcrumbs-area mb-70">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="breadcrumbs-menu">
+					<ul>
+						<li><a asp-controller="Product" asp-action="Index">Home</a></li>
+						<li><a asp-controller="Cart" asp-action="Index" class="active">Cart</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- breadcrumbs-area-end -->
+<!-- entry-header-area-start -->
+<div class="entry-header-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="entry-header-title">
+					<h2>Cart</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- entry-header-area-end -->
+<!-- cart-main-area-start -->
+<div class="cart-main-area mb-70">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<form action="#">
+					<div class="table-content table-responsive mb-15 border-1">
+						<table>
+							<thead>
+								<tr>
+									<th class="product-thumbnail">Image</th>
+									<th class="product-name">Product</th>
+									<th class="product-price">Price</th>
+									<th class="product-quantity">Quantity</th>
+									<th class="product-subtotal">Total</th>
+									<th class="product-remove">Remove</th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (var item in Model)
+								{
+									<tr>
+										<td class="product-thumbnail"><a href="#"><img src="~/img/product/@item.Image" alt="@item.BookName" /></a></td>
+										<td class="product-name">
+											<a asp-action="Detail"
+											   asp-controller="Product"
+											   asp-route-bookId="@item.bookId">
+												@item.BookName
+											</a>
+										</td>
+										<td class="product-price"><span class="amount">£@item.Price</span></td>
+										<td class="product-quantity">
+											<input type="number" value="@item.Quantity" min="1"  onchange="updateQuantity(@item.bookId, this.value)" />
+										</td>
+										<td class="product-subtotal">£@item.Ammount</td>
+										<td class="product-remove">
+											<a asp-action="RemoveCart"
+											   asp-controller="Cart"
+											   asp-route-id="@item.bookId">
+												<i class="fa fa-times"></i>
+											</a>
+										</td>
+									</tr>
+								}
+
+
+							</tbody>
+						</table>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-8 col-md-6 col-12">
+				<div class="buttons-cart mb-30">
+					<ul>
+					
+						<li><a asp-controller="Product" asp-action="Index">Continue Shopping</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class="col-lg-4 col-md-6 col-12">
+				<div class="cart_totals">
+					<h2>Cart Totals</h2>
+					<table>
+						<tbody>
+							<tr class="cart-subtotal">
+								<th>Subtotal</th>
+								<td>
+									<span class="amount">@Model.Sum(p => p.Ammount)</span>
+								</td>
+							</tr>
+							<tr class="shipping">
+								<th>Shipping</th>
+								<td>
+									<ul id="shipping_method">
+										<li>
+											<input type="radio">
+											<label>
+												Flat Rate:
+												<span class="amount">£7.00</span>
+											</label>
+										</li>
+										<li>
+											<input type="radio">
+											<label> Free Shipping </label>
+										</li>
+									</ul>
+									<a href="#">Calculate Shipping</a>
+								</td>
+							</tr>
+							<tr class="order-total">
+								<th>Total</th>
+								<td>
+									<strong>
+										<span class="amount">£@Model.Sum(p => p.Ammount)</span>
+									</strong>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="wc-proceed-to-checkout">
+						<a asp-action="Checkout" asp-controller="Cart">Proceed to Checkout</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- cart-main-area-end -->
+
+
+<script>
+	function updateQuantity(bookId, quantity) {
+		fetch('/Cart/UpdateQuantity', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/x-www-form-urlencoded',
+			},
+			body: `id=${bookId}&quantity=${quantity}`
+		}).then(() => location.reload()); // Tải lại trang sau khi cập nhật
+	}
+</script>

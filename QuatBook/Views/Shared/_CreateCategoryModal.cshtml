@@ -1,0 +1,72 @@
+﻿@model QuatBook.Models.Category
+
+<div class="modal-header">
+    <h5 class="modal-title">Thêm danh mục mới</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<form id="createCategoryForm" asp-action="CreateCategory" asp-controller="Manager" method="post">
+    <div class="modal-body">
+        <div id="createMessage" class="alert d-none" role="alert"></div>
+        <div class="mb-3">
+            <label asp-for="CategoryName" class="form-label">Tên danh mục</label>
+            <input asp-for="CategoryName" class="form-control" required />
+            <span asp-validation-for="CategoryName" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="CategoryDescription" class="form-label">Mô tả</label>
+            <textarea asp-for="CategoryDescription" class="form-control" rows="3"></textarea>
+            <span asp-validation-for="CategoryDescription" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+        <button type="submit" class="btn btn-primary">Thêm</button>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function () {
+            $('#createCategoryForm').on('submit', function (e) {
+                e.preventDefault();
+                var messageDiv = $('#createMessage');
+                messageDiv.addClass('d-none').removeClass('alert-success alert-danger');
+
+                $.ajax({
+                    url: '@Url.Action("CreateCategory", "Manager")',
+                    method: 'POST',
+                    data: $(this).serialize(),
+                    success: function (response) {
+                        messageDiv.removeClass('d-none');
+                        if (response.success) {
+                            messageDiv.addClass('alert-success').text(response.message);
+                            setTimeout(function () {
+                                $('#createCategoryModal').modal('hide');
+                                window.location.href = '@Url.Action("Categories", "Manager")';
+                            }, 1500);
+                        } else {
+                            messageDiv.addClass('alert-danger').text(response.message);
+                            if (response.errors) {
+                                response.errors.forEach(function (error) {
+                                    messageDiv.append('<br>' + error);
+                                });
+                            }
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        messageDiv
+                            .removeClass('d-none')
+                            .addClass('alert-danger')
+                            .text('Có lỗi xảy ra khi thêm danh mục: ' + error);
+                        setTimeout(function () {
+                            $('#createCategoryModal').modal('hide');
+                            window.location.href = '@Url.Action("Categories", "Manager")';
+                        }, 1500);
+                    }
+                });
+            });
+        });
+    </script>
+}
+

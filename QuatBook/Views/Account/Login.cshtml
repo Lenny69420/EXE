@@ -1,0 +1,82 @@
+﻿@model QuatBook.Dto.LoginDTO
+@{
+	ViewData["Title"] = "Login";
+	Layout = "_LayoutCustomer";
+}
+<style>
+    /* Tùy chỉnh nút Login */
+    .btn-login {
+        background-color: #007bff; /* Màu xanh dương */
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 100%;
+        max-width: 200px; /* Giới hạn chiều rộng nút */
+        margin-top: 15px; /* Khoảng cách phía trên */
+    }
+
+        .btn-login:hover {
+            background-color: #0056b3; /* Màu đậm hơn khi hover */
+        }
+
+    /* Khoảng cách cho checkbox */
+    .single-login-2 {
+        margin-bottom: 15px; /* Khoảng cách phía dưới */
+    }
+
+    /* Căn giữa liên kết "Lost your password?" */
+    .text-center {
+        margin-top: 10px;
+    }
+
+    /* Đảm bảo các trường nhập liệu có khoảng cách hợp lý */
+    .single-login {
+        margin-bottom: 20px;
+    }
+</style>
+<!-- user-login-area-start -->
+<div class="user-login-area mb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="login-title text-center mb-30">
+                    <h2>Login</h2>
+                    <p>doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo<br>inventore veritatis et quasi architecto beat</p>
+                </div>
+            </div>
+            <div class="offset-lg-3 col-lg-6 col-md-12 col-12">
+                <form asp-action="Login" asp-controller="Account" asp-route-returnUrl="@ViewBag.ReturnUrl" method="post">
+                    
+                    <div class="login-form">
+                        <div class="single-login">
+                            <label>Username or email<span>*</span></label>
+                            <input asp-for="@Model.Username" placeholder="Enter username" class="form-control" required />
+                            <span asp-validation-for="@Model.Username" class="text-danger"></span>
+                        </div>
+                        <div class="single-login">
+                            <label>Passwords <span>*</span></label>
+                            <input asp-for="@Model.Password" placeholder="Enter password" class="form-control" />
+                            <span asp-validation-for="@Model.Password" class="text-danger"></span>
+                        </div>
+                        <div class="single-login single-login-2 d-flex align-items-center">
+                            <input id="rememberme" type="checkbox" name="rememberme" value="forever">
+                            <span>Remember me</span>
+                        </div>
+                        <div class="single-login single-login-3 text-center">
+                            <button type="submit" class="btn-login">Login</button>
+                        </div>
+                        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+                        <div class="text-center">
+                            <a href="/Account/Register">Don't have an account? Register</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- user-login-area-end -->

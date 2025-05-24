@@ -1,0 +1,36 @@
+﻿@model IEnumerable<QuatBook.Dto.MenuCategoryDTO>
+
+<div class="section-title-5 mb-30">
+	<h2>Shopping Options</h2>
+</div>
+<div class="left-title mb-20" style="text-align: left;">
+	<h4>
+		<a asp-controller="Product" asp-action="Index" style="
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;"
+		   onmouseover="this.style.color='#e74c3c';"
+		   onmouseout="this.style.color='#333';">
+			Category
+		</a>
+	</h4>
+</div>
+
+<div class="left-menu mb-30">
+	<ul>
+		@foreach (var item in Model)
+		{
+			<li>
+				<a asp-controller="Product"
+				   asp-action="Index"
+				   asp-route-categoryId="@item.CategoryId">
+					@item.CategoryName<span>@item.CategoryCount</span>
+				</a>
+			</li>
+		}
+
+
+	</ul>
+</div>

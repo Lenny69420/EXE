@@ -1,0 +1,39 @@
+﻿@model QuatBook.Dto.CartModel
+<a asp-controller="Cart" asp-action="Index"><i class="fa fa-shopping-cart"></i>My Cart</a>
+<span>@Model.Quantity</span>
+<div class="mini-cart-sub">
+	<div class="cart-product">
+		@foreach (var item in Model.Items)
+		{
+			<div class="single-cart">
+				<div class="cart-img">
+					<a asp-action="Detail"
+					   asp-controller="Product"
+					   asp-route-bookId="@item.bookId">
+						<img src="~/img/product/@item.Image" alt="@item.BookName" />
+					</a>
+				</div>
+				<div class="cart-info">
+					<h5>
+						<a asp-action="Detail"
+						   asp-controller="Product"
+						   asp-route-bookId="@item.bookId">
+							@item.BookName
+						</a>
+					</h5>
+					<p>@item.Quantity x £@item.Price</p>
+				</div>
+				<div class="cart-icon">
+					<a asp-controller="Cart" asp-action="RemoveCart" asp-route-id="@item.bookId"><i class="fa fa-remove"></i></a>
+				</div>
+			</div>
+		}
+	</div>
+	<div class="cart-totals">
+		<h5>Total <span>£@Model.Total</span></h5>
+	</div>
+	<div class="cart-bottom">
+		<a asp-controller="Cart" asp-action="Index" class="view-cart">View Cart</a>
+		<a href="checkout.html">Check out</a>
+	</div>
+</div>
