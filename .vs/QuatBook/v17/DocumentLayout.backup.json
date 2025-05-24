@@ -1,30 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\C#\\QuatBook\\",
+  "WorkspaceRootPath": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|g:\\c#\\quatbook\\quatbook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\dto\\menuauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\dto\\menuauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|g:\\c#\\quatbook\\quatbook\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\dto\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\dto\\checkoutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\service\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\service\\ivnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\service\\ivietqrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\service\\ivietqrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\controllers\\managercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\dto\\menucategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\dto\\menucategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|g:\\c#\\quatbook\\quatbook\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|g:\\c#\\quatbook\\quatbook\\views\\cart\\checkoutwithvietqr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\views\\cart\\checkoutwithvietqr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\views\\cart\\checkoutwithvietqr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|g:\\c#\\quatbook\\quatbook\\service\\vietqrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|c:\\users\\legion\\downloads\\quatbook\\quatbook\\quatbook\\service\\vietqrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\service\\vietqrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|g:\\c#\\quatbook\\quatbook\\service\\ivietqrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\service\\ivietqrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,12 +86,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 118,
+          "SelectedChildIndex": 116,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
@@ -243,6 +291,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:3:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Bookmark",
@@ -470,6 +522,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
@@ -497,16 +553,198 @@
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuAuthorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\MenuAuthorDTO.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Dto\\MenuAuthorDTO.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\MenuAuthorDTO.cs",
+              "RelativeToolTip": "QuatBook\\Dto\\MenuAuthorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:13:12.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckoutDTO.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\CheckoutDTO.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Dto\\CheckoutDTO.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\CheckoutDTO.cs",
+              "RelativeToolTip": "QuatBook\\Dto\\CheckoutDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:13:12.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Dto\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\LoginDTO.cs",
+              "RelativeToolTip": "QuatBook\\Dto\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:13:11.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IVnPayService.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Service\\IVnPayService.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Service\\IVnPayService.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Service\\IVnPayService.cs",
+              "RelativeToolTip": "QuatBook\\Service\\IVnPayService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:13:05.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "QuatBook\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:59.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\Category.cs",
+              "RelativeToolTip": "QuatBook\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:58.586Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "QuatBook\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:57.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MenuCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\MenuCategoryDTO.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Dto\\MenuCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Dto\\MenuCategoryDTO.cs",
+              "RelativeToolTip": "QuatBook\\Dto\\MenuCategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:52.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Models\\Product.cs",
+              "RelativeToolTip": "QuatBook\\Models\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:18.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IVietQRService.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Service\\IVietQRService.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Service\\IVietQRService.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Service\\IVietQRService.cs",
+              "RelativeToolTip": "QuatBook\\Service\\IVietQRService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T02:34:24.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "QuatBook\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:09.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\ManagerController.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Controllers\\ManagerController.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\ManagerController.cs",
+              "RelativeToolTip": "QuatBook\\Controllers\\ManagerController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:09.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "QuatBook\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:08.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "QuatBook\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T13:12:06.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "CheckoutWithVietQR.cshtml",
-              "DocumentMoniker": "G:\\C#\\QuatBook\\QuatBook\\Views\\Cart\\CheckoutWithVietQR.cshtml",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Views\\Cart\\CheckoutWithVietQR.cshtml",
               "RelativeDocumentMoniker": "QuatBook\\Views\\Cart\\CheckoutWithVietQR.cshtml",
-              "ToolTip": "G:\\C#\\QuatBook\\QuatBook\\Views\\Cart\\CheckoutWithVietQR.cshtml",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Views\\Cart\\CheckoutWithVietQR.cshtml",
               "RelativeToolTip": "QuatBook\\Views\\Cart\\CheckoutWithVietQR.cshtml",
               "ViewState": "AgIAAAoAAAAAAAAAAAAUwEEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -514,11 +752,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "CartController.cs",
-              "DocumentMoniker": "G:\\C#\\QuatBook\\QuatBook\\Controllers\\CartController.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "QuatBook\\Controllers\\CartController.cs",
-              "ToolTip": "G:\\C#\\QuatBook\\QuatBook\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Controllers\\CartController.cs",
               "RelativeToolTip": "QuatBook\\Controllers\\CartController.cs",
               "ViewState": "AgIAAPUBAAAAAAAAAAAqwBECAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -527,11 +765,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
-              "DocumentMoniker": "G:\\C#\\QuatBook\\QuatBook\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\appsettings.json",
               "RelativeDocumentMoniker": "QuatBook\\appsettings.json",
-              "ToolTip": "G:\\C#\\QuatBook\\QuatBook\\appsettings.json",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\appsettings.json",
               "RelativeToolTip": "QuatBook\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -540,11 +778,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "Checkout.cshtml",
-              "DocumentMoniker": "G:\\C#\\QuatBook\\QuatBook\\Views\\Cart\\Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Views\\Cart\\Checkout.cshtml",
               "RelativeDocumentMoniker": "QuatBook\\Views\\Cart\\Checkout.cshtml",
-              "ToolTip": "G:\\C#\\QuatBook\\QuatBook\\Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Views\\Cart\\Checkout.cshtml",
               "RelativeToolTip": "QuatBook\\Views\\Cart\\Checkout.cshtml",
               "ViewState": "AgIAAJEAAAAAAAAAAAAUwL0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -552,27 +790,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "VietQRService.cs",
-              "DocumentMoniker": "G:\\C#\\QuatBook\\QuatBook\\Service\\VietQRService.cs",
+              "DocumentMoniker": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Service\\VietQRService.cs",
               "RelativeDocumentMoniker": "QuatBook\\Service\\VietQRService.cs",
-              "ToolTip": "G:\\C#\\QuatBook\\QuatBook\\Service\\VietQRService.cs",
+              "ToolTip": "C:\\Users\\legion\\Downloads\\QuatBook\\QuatBook\\QuatBook\\Service\\VietQRService.cs",
               "RelativeToolTip": "QuatBook\\Service\\VietQRService.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAIwEkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T02:35:04.855Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IVietQRService.cs",
-              "DocumentMoniker": "G:\\C#\\QuatBook\\QuatBook\\Service\\IVietQRService.cs",
-              "RelativeDocumentMoniker": "QuatBook\\Service\\IVietQRService.cs",
-              "ToolTip": "G:\\C#\\QuatBook\\QuatBook\\Service\\IVietQRService.cs",
-              "RelativeToolTip": "QuatBook\\Service\\IVietQRService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T02:34:24.201Z"
             }
           ]
         },

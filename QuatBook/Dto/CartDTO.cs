@@ -9,6 +9,8 @@
         public int Quantity { get; set; }
         public double Ammount => (double)(Price * Quantity);
         public DateTime AddedTime { get; set; } // Thêm trường này
+
+        //Test
     }
 
     public class CartModel
