@@ -20,15 +20,17 @@
 					@await Component.InvokeAsync("MenuCategory")
 					
 					<div class="left-title mb-20">
-						<h4>Author</h4>
+						<h4>Thương hiệu</h4>
 					</div>
 					@await Component.InvokeAsync("MenuAuthor")
 						
-					<div class="left-title mb-20">
-						<h4>Random</h4>
-					</div>
+					@* <div class="left-title mb-20">
+						<h4>Bạn có thể muốn thử</h4>
+					</div> *@
+
+					@* Random *@
 					<div class="random-area mb-30">
-						<div class="product-active-2 owl-carousel">
+						@* <div class="product-active-2 owl-carousel">
 							<div class="product-total-2">
 								<div class="single-most-product bd mb-18">
 									<div class="most-product-img">
@@ -169,11 +171,12 @@
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> *@
 					</div>
+
 					<div class="banner-area mb-30">
 						<div class="banner-img-2">
-							<a href="#"><img src="img/banner/31.jpg" alt="banner" /></a>
+							<a href="#"><img src="img/banner/banner_2.png" alt="banner" /></a>
 						</div>
 					</div>
 					
@@ -181,10 +184,10 @@
 			</div>
 			<div class="col-lg-9 col-md-12 col-12 order-lg-2 order-1">
 				<div class="category-image mb-30">
-					<a href="#"><img src="~/img/banner/32.jpg" alt="banner" /></a>
+					<a href="#"><img src="~/img/banner/airtentive_banner.png" alt="banner" /></a>
 				</div>
 				<div class="section-title-5 mb-30">
-					<h2>Book</h2>
+					<h2>Sản Phẩm</h2>
 				</div>
 				<div class="toolbar mb-30">
 					<div class="shop-tab">
@@ -194,9 +197,9 @@
 								<li><a href="#list" data-bs-toggle="tab"><i class="fa fa-bars"></i>List</a></li>
 							</ul>
 						</div>
-						<div class="list-page">
-							<p>Items 1-9 of 11</p>
-						</div>
+						@* <div class="list-page">
+							<p>Gian hàng 1-9 trong 11</p>
+						</div> *@
 					</div>
 					<div class="field-limiter">
 						<div class="control">
@@ -225,7 +228,7 @@
 				<div class="tab-content">
 					<div class="tab-pane fade show active" id="th">
 						<div class="row">
-							@RenderBody()
+							@RenderBody() @* This in ProductItem *@
 
 						</div>
 					</div>

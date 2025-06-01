@@ -128,8 +128,23 @@ namespace QuatBook.Controllers
                       })
                 .ToList();
 
+
+            var products = _context.Products
+               .Where(p => p.active == true)
+               .Select(p => new ProductDTO
+               {
+                   BookId = p.BookId,
+                   BookName = p.BookName,
+                   Image = p.Image ?? "",
+                   Price = p.Price ?? 0,
+                   CategoryName = p.Category.CategoryName
+               }).Take(4)
+               .ToList();
+
+
             // Truyền danh sách sản phẩm bán chạy nhất vào ViewBag
             ViewBag.BestSellingProducts = bestSellingProducts;
+            ViewBag.Products = products; // Truyền danh sách sản phẩm vào ViewBag
 
             return View(result);
         }
@@ -166,6 +181,8 @@ namespace QuatBook.Controllers
                 {
                     product.Image = UploadImage.UploadHinh(ImageFile, "product");
                 }
+
+                product.active = true;
 
 
                 // ✅ Thêm sản phẩm vào database

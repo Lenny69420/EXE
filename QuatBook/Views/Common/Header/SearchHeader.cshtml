@@ -8,6 +8,16 @@
 </div>
 <div class="col-lg-6 col-md-4 col-12">
 	<div class="logo-area text-center logo-xs-mrg">
-		<a asp-controller="Product" asp-action="Index"><img src="~/img/logo//logo.png" alt="logo" /></a>
+		<a asp-controller="Product" asp-action="Index">
+			<img id="logo_airtentive" class="logo_airtentive" src="~/img/logo//airtentive.jpg" alt="logo" />
+		</a>
 	</div>
 </div>
+
+<style>
+	.logo_airtentive {
+		width: 75px;
+		height: 75px;
+		object-fit: contain; /* Keeps aspect ratio, optional */
+	}
+</style>

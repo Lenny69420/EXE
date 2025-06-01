@@ -10,8 +10,8 @@
             <div class="col-lg-12">
                 <div class="breadcrumbs-menu">
                     <ul>
-                        <li><a href="http://localhost:5211/Product">Home</a></li>
-                        <li><a href="Detail?bookId=@Model.BookId" class="active">product-details: @Model.BookName </a></li>
+                        <li><a href="http://localhost:5211/Product">Trang Chủ</a></li>
+                        <li><a href="Detail?bookId=@Model.BookId" class="active"> @Model.BookName </a></li>
                     </ul>
                 </div>
             </div>
@@ -43,28 +43,65 @@
                                 </div>
                                 <div class="product-info-stock-sku">
                                     <span style="
-    display: inline-block;
-    background-color: #e74c3c;
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 600;
-    padding: 4px 10px;
-    border-radius: 15px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease-in-out;"
-                                          onmouseover="this.style.backgroundColor='#c0392b'; this.style.transform='scale(1.05)';"
-                                          onmouseout="this.style.backgroundColor='#e74c3c'; this.style.transform='scale(1)';">
+                                        display: inline-block;
+                                        background-color: #e74c3c;
+                                        color: #ffffff;
+                                        font-size: 12px;
+                                        font-weight: 600;
+                                        padding: 4px 10px;
+                                        border-radius: 15px;
+                                        text-transform: uppercase;
+                                        letter-spacing: 0.5px;
+                                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+                                        transition: all 0.3s ease-in-out;"
+                                    onmouseover="this.style.backgroundColor='#c0392b'; this.style.transform='scale(1.05)';"
+                                    onmouseout="this.style.backgroundColor='#e74c3c'; this.style.transform='scale(1)';">
                                         @Model.CategoryName
                                     </span>
+
+
+                                    <span style="
+                                    display: inline-block;
+                                    background-color: purple;
+                                    color: #ffffff;
+                                    font-size: 12px;
+                                    font-weight: 600;
+                                    padding: 4px 10px;
+                                    border-radius: 15px;
+                                    text-transform: uppercase;
+                                    letter-spacing: 0.5px;
+                                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+                                    transition: all 0.3s ease-in-out;"
+                                    onmouseover="this.style.backgroundColor='#c0392b'; this.style.transform='scale(1.05)';"
+                                    onmouseout="this.style.backgroundColor='#e74c3c'; this.style.transform='scale(1)';">
+                                        @Model.AuthorName
+                                    </span>
+
                                     <div class="product-attribute">
-                                        <span>Count: @Model.Quantity</span>
+                                        <span style="
+                                    display: inline-block;
+                                    background-color: blueviolet;
+                                    color: #ffffff;
+                                    font-size: 12px;
+                                    font-weight: 600;
+                                    padding: 4px 10px;
+                                    border-radius: 15px;
+                                    text-transform: uppercase;
+                                    letter-spacing: 0.5px;
+                                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+                                    transition: all 0.3s ease-in-out;"
+                                        onmouseover="this.style.backgroundColor='#c0392b'; this.style.transform='scale(1.05)';"
+                                        onmouseout="this.style.backgroundColor='#e74c3c'; this.style.transform='scale(1)';">
+                                            Số Lượng : @Model.Quantity
+                                        </span>
+                                        @* <span>Số Lượng : @Model.Quantity</span> *@
                                     </div>
+
                                 </div>
-                                <div class="product-reviews-summary">
-                                    <a href="#" class="view">Author: @Model.AuthorName</a>
-                                </div>
+
+
+
+
                                 @if (Model.Quantity <= 0)
                                 {
                                     <div class="product-info-price">
@@ -84,7 +121,7 @@
                                         <form asp-action="AddToCart" asp-controller="Cart" asp-route-id="@Model.BookId">
                                             <div class="quality-button" style="display: flex; align-items: center; justify-content: center; width: 100px; border: 2px solid #ff6600; border-radius: 8px; padding: 5px; background-color: #fff;">
                                                 <input class="qty" type="number" value="1" name="quantity" min="1" max="@Model.Quantity"
-                                                       style="width: 60px; height: 35px; text-align: center; font-size: 16px; border: none; outline: none; background: transparent; font-weight: bold; color: #333;">
+                                                style="width: 60px; height: 35px; text-align: center; font-size: 16px; border: none; outline: none; background: transparent; font-weight: bold; color: #333;">
                                             </div>
                                             <button class="btn btn-primary" style="width: 150px; height: 50px; background-color: #ff6600; border: none; border-radius: 8px; font-size: 16px; font-weight: bold; color: white; cursor: pointer;">
                                                 🛒 Add to cart
@@ -101,7 +138,7 @@
                 <div class="product-info-area mt-80">
                     <!-- Nav tabs -->
                     <ul class="nav">
-                        <li><a class="active" href="#Details" data-bs-toggle="tab">Details</a></li>
+                        <li><a class="active" href="#Details" data-bs-toggle="tab">Thông Tin</a></li>
                     </ul>
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="Details">
@@ -115,7 +152,7 @@
                 <!-- new-book-area-start -->
                 <div class="new-book-area mt-60">
                     <div class="section-title text-center mb-30">
-                        <h3>Top Best-Selling Products</h3>
+                        <h3>Sản phẩm bán nổi trội</h3>
                     </div>
                     <div class="tab-active-2 owl-carousel">
                         @if (ViewBag.BestSellingProducts != null && ViewBag.BestSellingProducts.Count > 0)
@@ -173,7 +210,7 @@
                         }
                         else
                         {
-                            <p class="text-center">No best-selling products available.</p>
+                            <p class="text-center">Không có sản phẩm nào</p>
                         }
                     </div>
                 </div>
@@ -182,150 +219,52 @@
             <div class="col-lg-3 col-md-12 col-12 order-lg-2 order-2">
                 <div class="shop-left">
                     <div class="left-title mb-20">
-                        <h4>Related Products</h4>
+                        <h4>Sản phẩm khác</h4>
                     </div>
                     <div class="random-area mb-30">
                         <div class="product-active-2 owl-carousel">
                             <div class="product-total-2">
-                                <div class="single-most-product bd mb-18">
-                                    <div class="most-product-img">
-                                        <a href="#"><img src="~/img/product/20.jpg" alt="book" /></a>
-                                    </div>
-                                    <div class="most-product-content">
-                                        <div class="product-rating">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                            </ul>
+                                @if (ViewBag.Products != null && ViewBag.Products.Count > 0)
+                                {
+                                    @foreach (var product in ViewBag.Products)
+                                    {
+                                        <div class="single-most-product bd mb-18">
+                                            <div class="most-product-img">
+                                                <a href="#"><img src="~/img/product/@product.Image" alt="book" /></a>
+                                            </div>
+                                            <div class="most-product-content">
+                                                <div class="product-rating">
+                                                    
+                                                </div>
+                                                <h4><a asp-action="Detail" asp-controller="Product" asp-route-bookId="@product.BookId">
+                                                        @product.BookName
+                                                    </a>
+                                                </h4>
+                                                <div class="product-price">
+                                                    <ul>
+                                                        <li>$30.00</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <h4><a href="#">Endeavor Daytrip</a></h4>
-                                        <div class="product-price">
-                                            <ul>
-                                                <li>$30.00</li>
-                                                <li class="old-price">$33.00</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="single-most-product bd mb-18">
-                                    <div class="most-product-img">
-                                        <a href="#"><img src="~/img/product/21.jpg" alt="book" /></a>
-                                    </div>
-                                    <div class="most-product-content">
-                                        <div class="product-rating">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <h4><a href="#">Savvy Shoulder Tote</a></h4>
-                                        <div class="product-price">
-                                            <ul>
-                                                <li>$30.00</li>
-                                                <li class="old-price">$35.00</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="single-most-product">
-                                    <div class="most-product-img">
-                                        <a href="#"><img src="~/img/product/22.jpg" alt="book" /></a>
-                                    </div>
-                                    <div class="most-product-content">
-                                        <div class="product-rating">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <h4><a href="#">Compete Track Tote</a></h4>
-                                        <div class="product-price">
-                                            <ul>
-                                                <li>$35.00</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                                        
+                                    }
+
+                                }
+
+                                
+
+
+                               
+
+
+                              
+
+
                             </div>
-                            <div class="product-total-2">
-                                <div class="single-most-product bd mb-18">
-                                    <div class="most-product-img">
-                                        <a href="#"><img src="~/img/product/23.jpg" alt="book" /></a>
-                                    </div>
-                                    <div class="most-product-content">
-                                        <div class="product-rating">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <h4><a href="#">Voyage Yoga Bag</a></h4>
-                                        <div class="product-price">
-                                            <ul>
-                                                <li>$30.00</li>
-                                                <li class="old-price">$33.00</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="single-most-product bd mb-18">
-                                    <div class="most-product-img">
-                                        <a href="#"><img src="~/img/product/24.jpg" alt="book" /></a>
-                                    </div>
-                                    <div class="most-product-content">
-                                        <div class="product-rating">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <h4><a href="#">Impulse Duffle</a></h4>
-                                        <div class="product-price">
-                                            <ul>
-                                                <li>$70.00</li>
-                                                <li class="old-price">$74.00</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="single-most-product">
-                                    <div class="most-product-img">
-                                        <a href="#"><img src="~/img/product/22.jpg" alt="book" /></a>
-                                    </div>
-                                    <div class="most-product-content">
-                                        <div class="product-rating">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-star"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <h4><a href="#">Fusion Backpack</a></h4>
-                                        <div class="product-price">
-                                            <ul>
-                                                <li>$59.00</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
+
+                            
                         </div>
                     </div>
                     <div class="banner-area mb-30">

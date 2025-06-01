@@ -1789,6 +1789,8 @@ wwwroot\img\banner\5.jpg
 wwwroot\img\banner\7.jpg
 wwwroot\img\banner\8.jpg
 wwwroot\img\banner\9.jpg
+wwwroot\img\banner\airtentive_banner.png
+wwwroot\img\banner\banner_2.png
 wwwroot\img\blog\1.jpg
 wwwroot\img\blog\2.jpg
 wwwroot\img\blog\3.jpg
@@ -1815,6 +1817,7 @@ wwwroot\img\logo\2.png
 wwwroot\img\logo\3.png
 wwwroot\img\logo\4.png
 wwwroot\img\logo\5.png
+wwwroot\img\logo\airtentive.jpg
 wwwroot\img\logo\logo.png
 wwwroot\img\post\1.jpg
 wwwroot\img\post\2.jpg
@@ -1823,6 +1826,7 @@ wwwroot\img\post\4.jpg
 wwwroot\img\product\1.jpg
 wwwroot\img\product\10.jpg
 wwwroot\img\product\11.jpg
+wwwroot\img\product\1-1-768x768_4199e7b4.png
 wwwroot\img\product\13.jpg
 wwwroot\img\product\14.jpg
 wwwroot\img\product\15.jpg
@@ -1850,6 +1854,9 @@ wwwroot\img\product\deadline1_aacb440c.jpg
 wwwroot\img\product\deadline1_f35ece0f.jpg
 wwwroot\img\product\deadline2_19d677d8.jpg
 wwwroot\img\product\deadline2_f5618f21.jpg
+wwwroot\img\product\m_y_l_c_kh_ng_kh_2 (1)_1ae758d4.png
+wwwroot\img\product\m_y_l_c_kh_ng_kh_2_fe04a5dc.png
+wwwroot\img\product\mivietnam-may-loc-khong-khi-mi-air-purifier-4-cover-3110_6efbde03.jpg
 wwwroot\img\product\nani_32aa8177.jpg
 wwwroot\img\product\nani_5e07e935.jpg
 wwwroot\img\product\nani_78f2f0c3.jpg
