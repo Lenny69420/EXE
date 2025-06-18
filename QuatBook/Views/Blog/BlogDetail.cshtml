@@ -1,0 +1,113 @@
+﻿@model QuatBook.Dto.ProductDetailDTO
+@{
+    ViewData["Title"] = "Product Detail";
+   
+}
+<!-- breadcrumbs-area-start -->
+<div class="breadcrumbs-area mb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumbs-menu">
+                    <ul>
+                        <li><a href="http://localhost:5211/Product">Trang Chủ</a></li>
+                      @*   <li><a href="Detail?bookId=@Model.BookId" class="active"> @Model.BookName </a></li> *@
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- breadcrumbs-area-end -->
+<!-- product-main-area-start -->
+<div class="product-main-area mb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-12 order-lg-1 order-1">
+                <!-- product-main-area-start -->
+                <div class="product-main-area">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="flexslider">
+                                <ul class="slides">
+                                    <li data-thumb="~/img/blog/testdetail.png">
+                                        <img class="img-fluid" src="~/img/product/@ViewBag.Blog.Image" style="object-fit : cover;width: 300px; height: 198px;">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-6 col-12">
+                            <div class="product-info-main">
+                                <div class="page-title">
+
+                                    <h1>@ViewBag.Blog.Title</h1>
+
+                                </div>
+                                <div class="product-info-stock-sku">
+                                    <span style="
+                                        display: inline-block;
+                                        background-color: #e74c3c;
+                                        color: #ffffff;
+                                        font-size: 12px;
+                                        font-weight: 600;
+                                        padding: 4px 10px;
+                                        border-radius: 15px;
+                                        text-transform: uppercase;
+                                        letter-spacing: 0.5px;
+                                        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+                                        transition: all 0.3s ease-in-out;"
+                                          onmouseover="this.style.backgroundColor='#c0392b'; this.style.transform='scale(1.05)';"
+                                          onmouseout="this.style.backgroundColor='#e74c3c'; this.style.transform='scale(1)';">
+                                        24-5-2025
+                                    </span>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product-main-area-end -->
+                <!-- product-info-area-start -->
+                <div class="product-info-area mt-80">
+                    <!-- Nav tabs -->
+                    <ul class="nav">
+                        <li><a class="active" href="#Details" data-bs-toggle="tab">Thông Tin</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="Details">
+                            <div class="valu">
+                                <p>
+                                    @Html.Raw(ViewBag.Blog.Description)
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product-info-area-end -->
+                <!-- new-book-area-start -->
+               
+                <!-- new-book-area-end -->
+            </div>
+           @*  <div class="col-lg-3 col-md-12 col-12 order-lg-2 order-2">
+                <div class="shop-left">
+                    
+                    <div class="banner-area mb-30">
+                        <div class="banner-img-2">
+                            <a href="#"><img src="~/img/banner/33.jpg" alt="banner" /></a>
+                        </div>
+                    </div>
+                    <div class="left-title-2 mb-30">
+                        <h2>Compare Products</h2>
+                        <p>You have no items to compare.</p>
+                    </div>
+                    <div class="left-title-2">
+                        <h2>My Wish List</h2>
+                        <p>You have no items in your wish list.</p>
+                    </div>
+                </div>
+            </div> *@
+        </div>
+    </div>
+</div>

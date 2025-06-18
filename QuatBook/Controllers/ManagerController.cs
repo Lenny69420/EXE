@@ -37,6 +37,24 @@ namespace QuatBook.Controllers
             return View(products);
         }
 
+        //GET: Manager/Blogs
+        [HttpGet]
+        [AdminOnlyFilter]
+        public IActionResult Blogs()
+        {
+            int? userId = HttpContext.Session.GetInt32("UserId");
+            int? roleId = HttpContext.Session.GetInt32("RoleId");
+
+            if (!userId.HasValue || roleId != 1) // Chỉ Admin mới có quyền xóa
+            {
+                return RedirectToAction("Login", "Account");
+            }
+            var blogs = _context.Blogs.ToList();
+            return View(blogs);
+        }
+
+
+
 
         #region Profile 
         // GET: Manager/Profile

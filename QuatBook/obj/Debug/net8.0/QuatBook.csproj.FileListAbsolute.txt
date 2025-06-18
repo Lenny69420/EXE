@@ -313,10 +313,10 @@ D:\GitHub\EXE\QuatBook\obj\Debug\net8.0\staticwebassets\msbuild.build.QuatBook.p
 D:\GitHub\EXE\QuatBook\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.QuatBook.props
 D:\GitHub\EXE\QuatBook\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.QuatBook.props
 D:\GitHub\EXE\QuatBook\obj\Debug\net8.0\staticwebassets.pack.json
-D:\GitHub\EXE\QuatBook\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\GitHub\EXE\QuatBook\obj\Debug\net8.0\QuatBook.csproj.Up2Date
 D:\GitHub\EXE\QuatBook\obj\Debug\net8.0\QuatBook.dll
 D:\GitHub\EXE\QuatBook\obj\Debug\net8.0\refint\QuatBook.dll
 D:\GitHub\EXE\QuatBook\obj\Debug\net8.0\QuatBook.pdb
 D:\GitHub\EXE\QuatBook\obj\Debug\net8.0\QuatBook.genruntimeconfig.cache
 D:\GitHub\EXE\QuatBook\obj\Debug\net8.0\ref\QuatBook.dll
+D:\GitHub\EXE\QuatBook\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

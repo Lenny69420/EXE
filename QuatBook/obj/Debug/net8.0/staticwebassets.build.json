@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u+sSJZN0+wlV+qBlRlH7dxTl1eTllFEx3tCZPmOC4BU=",
+  "Hash": "Bb+mD3gqmUGcuFwIXtyPREYQ6oosyEQwFQXVkvv70lw=",
   "Source": "QuatBook",
   "BasePath": "_content/QuatBook",
   "Mode": "Default",
@@ -36599,6 +36599,27 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\css\\chatbot.css",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "css/chatbot#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l64hmwt5n5",
+      "Integrity": "bZVbwMBNp9FiAqcLGFIy0gYbVUGugs6hSRtFQ+0JBn8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\chatbot.css"
+    },
+    {
       "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\css\\chosen.min.css",
       "SourceId": "QuatBook",
       "SourceType": "Discovered",
@@ -36823,8 +36844,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rrguyw9uhi",
-      "Integrity": "mV2y+O/KTUH8FEYyX2MJ/JyutK0tdDKbt3GtFz+B1Tc=",
+      "Fingerprint": "ssx45ehfeh",
+      "Integrity": "HHFAk8A+TBIhxolxVPfm7R4wbEsHJMQDsLXciXe2Qt4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -37817,6 +37838,27 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\6.jpg"
     },
     {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\blog\\testdetail.png",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "img/blog/testdetail#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ilm03d63p",
+      "Integrity": "p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blog\\testdetail.png"
+    },
+    {
       "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\cart\\1.jpg",
       "SourceId": "QuatBook",
       "SourceType": "Discovered",
@@ -38279,6 +38321,48 @@
       "OriginalItemSpec": "wwwroot\\img\\logo\\airtentive.jpg"
     },
     {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\logo\\airtentive_2.png",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "img/logo/airtentive_2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hfrsvkw66q",
+      "Integrity": "I7fGN9/7hIbksCSeINTVBVLOyxjqvCXzwiolEj09KP4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo\\airtentive_2.png"
+    },
+    {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\logo\\airtentive_3.png",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "img/logo/airtentive_3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jkm5889cyr",
+      "Integrity": "fUbZF33KF+qgNMtB9JaDBFcKPJUgNzQVdbNkxZcKqvI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logo\\airtentive_3.png"
+    },
+    {
       "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\logo\\logo.png",
       "SourceId": "QuatBook",
       "SourceType": "Discovered",
@@ -38298,6 +38382,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\logo\\logo.png"
+    },
+    {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\Mess.png",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "img/Mess#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pia3hnkw8f",
+      "Integrity": "//o7Hrkq8yLw8o33msr8wGvB6QpVxp37XUwaxf1MbeY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Mess.png"
     },
     {
       "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\post\\1.jpg",
@@ -39455,6 +39560,111 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\tải xuống_03cfe10b.png"
     },
     {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_6aa7b00d.png",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "img/product/testdetail_6aa7b00d#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ilm03d63p",
+      "Integrity": "p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\product\\testdetail_6aa7b00d.png"
+    },
+    {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_6d68a700.png",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "img/product/testdetail_6d68a700#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ilm03d63p",
+      "Integrity": "p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\product\\testdetail_6d68a700.png"
+    },
+    {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_a6f8313a.png",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "img/product/testdetail_a6f8313a#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ilm03d63p",
+      "Integrity": "p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\product\\testdetail_a6f8313a.png"
+    },
+    {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_ae94c2c4.png",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "img/product/testdetail_ae94c2c4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ilm03d63p",
+      "Integrity": "p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\product\\testdetail_ae94c2c4.png"
+    },
+    {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_c6bbe442.png",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "img/product/testdetail_c6bbe442#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ilm03d63p",
+      "Integrity": "p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\product\\testdetail_c6bbe442.png"
+    },
+    {
       "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\Zalo_637309416464211285_6919bfa2.jpg",
       "SourceId": "QuatBook",
       "SourceType": "Discovered",
@@ -40020,6 +40230,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\js\\chatbot.js",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "js/chatbot#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nlj0hdhlvf",
+      "Integrity": "xUd7tVfYHBWGqM6cbw16V/LKxVaqMYlu1sdTdsYRVGM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chatbot.js"
     },
     {
       "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\js\\chosen.jquery.min.js",
@@ -184363,6 +184594,88 @@
       ]
     },
     {
+      "Route": "css/chatbot.css",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\css\\chatbot.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bZVbwMBNp9FiAqcLGFIy0gYbVUGugs6hSRtFQ+0JBn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 03:11:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bZVbwMBNp9FiAqcLGFIy0gYbVUGugs6hSRtFQ+0JBn8="
+        }
+      ]
+    },
+    {
+      "Route": "css/chatbot.l64hmwt5n5.css",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\css\\chatbot.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bZVbwMBNp9FiAqcLGFIy0gYbVUGugs6hSRtFQ+0JBn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 03:11:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l64hmwt5n5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/chatbot.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bZVbwMBNp9FiAqcLGFIy0gYbVUGugs6hSRtFQ+0JBn8="
+        }
+      ]
+    },
+    {
       "Route": "css/chosen.min.css",
       "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\css\\chosen.min.css",
       "Selectors": [],
@@ -185193,7 +185506,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "168729"
+          "Value": "168733"
         },
         {
           "Name": "Content-Type",
@@ -185201,11 +185514,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mV2y+O/KTUH8FEYyX2MJ/JyutK0tdDKbt3GtFz+B1Tc=\""
+          "Value": "\"HHFAk8A+TBIhxolxVPfm7R4wbEsHJMQDsLXciXe2Qt4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 24 May 2025 12:48:32 GMT"
+          "Value": "Tue, 10 Jun 2025 03:56:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -185215,12 +185528,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mV2y+O/KTUH8FEYyX2MJ/JyutK0tdDKbt3GtFz+B1Tc="
+          "Value": "sha256-HHFAk8A+TBIhxolxVPfm7R4wbEsHJMQDsLXciXe2Qt4="
         }
       ]
     },
     {
-      "Route": "css/style.rrguyw9uhi.css",
+      "Route": "css/style.ssx45ehfeh.css",
       "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -185230,7 +185543,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "168729"
+          "Value": "168733"
         },
         {
           "Name": "Content-Type",
@@ -185238,11 +185551,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mV2y+O/KTUH8FEYyX2MJ/JyutK0tdDKbt3GtFz+B1Tc=\""
+          "Value": "\"HHFAk8A+TBIhxolxVPfm7R4wbEsHJMQDsLXciXe2Qt4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 24 May 2025 12:48:32 GMT"
+          "Value": "Tue, 10 Jun 2025 03:56:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -185252,7 +185565,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rrguyw9uhi"
+          "Value": "ssx45ehfeh"
         },
         {
           "Name": "label",
@@ -185260,7 +185573,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mV2y+O/KTUH8FEYyX2MJ/JyutK0tdDKbt3GtFz+B1Tc="
+          "Value": "sha256-HHFAk8A+TBIhxolxVPfm7R4wbEsHJMQDsLXciXe2Qt4="
         }
       ]
     },
@@ -189119,6 +189432,88 @@
       ]
     },
     {
+      "Route": "img/blog/testdetail.1ilm03d63p.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\blog\\testdetail.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 06:01:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ilm03d63p"
+        },
+        {
+          "Name": "label",
+          "Value": "img/blog/testdetail.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0="
+        }
+      ]
+    },
+    {
+      "Route": "img/blog/testdetail.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\blog\\testdetail.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 06:01:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0="
+        }
+      ]
+    },
+    {
       "Route": "img/cart/1.jpg",
       "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\cart\\1.jpg",
       "Selectors": [],
@@ -190923,6 +191318,170 @@
       ]
     },
     {
+      "Route": "img/logo/airtentive_2.hfrsvkw66q.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\logo\\airtentive_2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105700"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I7fGN9/7hIbksCSeINTVBVLOyxjqvCXzwiolEj09KP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 03:46:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfrsvkw66q"
+        },
+        {
+          "Name": "label",
+          "Value": "img/logo/airtentive_2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I7fGN9/7hIbksCSeINTVBVLOyxjqvCXzwiolEj09KP4="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo/airtentive_2.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\logo\\airtentive_2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105700"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I7fGN9/7hIbksCSeINTVBVLOyxjqvCXzwiolEj09KP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 03:46:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I7fGN9/7hIbksCSeINTVBVLOyxjqvCXzwiolEj09KP4="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo/airtentive_3.jkm5889cyr.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\logo\\airtentive_3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98355"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fUbZF33KF+qgNMtB9JaDBFcKPJUgNzQVdbNkxZcKqvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 03:53:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jkm5889cyr"
+        },
+        {
+          "Name": "label",
+          "Value": "img/logo/airtentive_3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fUbZF33KF+qgNMtB9JaDBFcKPJUgNzQVdbNkxZcKqvI="
+        }
+      ]
+    },
+    {
+      "Route": "img/logo/airtentive_3.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\logo\\airtentive_3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "98355"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fUbZF33KF+qgNMtB9JaDBFcKPJUgNzQVdbNkxZcKqvI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 03:53:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fUbZF33KF+qgNMtB9JaDBFcKPJUgNzQVdbNkxZcKqvI="
+        }
+      ]
+    },
+    {
       "Route": "img/logo/logo.png",
       "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\logo\\logo.png",
       "Selectors": [],
@@ -191001,6 +191560,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-6lDakP+9oZIxsEHq25rIcV4qOX5yAfRvQjD87m7B7SY="
+        }
+      ]
+    },
+    {
+      "Route": "img/Mess.pia3hnkw8f.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\Mess.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"//o7Hrkq8yLw8o33msr8wGvB6QpVxp37XUwaxf1MbeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 02:52:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pia3hnkw8f"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Mess.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-//o7Hrkq8yLw8o33msr8wGvB6QpVxp37XUwaxf1MbeY="
+        }
+      ]
+    },
+    {
+      "Route": "img/Mess.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\Mess.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"//o7Hrkq8yLw8o33msr8wGvB6QpVxp37XUwaxf1MbeY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Jun 2025 02:52:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-//o7Hrkq8yLw8o33msr8wGvB6QpVxp37XUwaxf1MbeY="
         }
       ]
     },
@@ -195515,6 +196156,416 @@
       ]
     },
     {
+      "Route": "img/product/testdetail_6aa7b00d.1ilm03d63p.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_6aa7b00d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 04:24:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ilm03d63p"
+        },
+        {
+          "Name": "label",
+          "Value": "img/product/testdetail_6aa7b00d.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/testdetail_6aa7b00d.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_6aa7b00d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 04:24:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/testdetail_6d68a700.1ilm03d63p.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_6d68a700.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 04:24:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ilm03d63p"
+        },
+        {
+          "Name": "label",
+          "Value": "img/product/testdetail_6d68a700.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/testdetail_6d68a700.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_6d68a700.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 04:24:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/testdetail_a6f8313a.1ilm03d63p.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_a6f8313a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 04:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ilm03d63p"
+        },
+        {
+          "Name": "label",
+          "Value": "img/product/testdetail_a6f8313a.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/testdetail_a6f8313a.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_a6f8313a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 04:39:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/testdetail_ae94c2c4.1ilm03d63p.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_ae94c2c4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 04:25:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ilm03d63p"
+        },
+        {
+          "Name": "label",
+          "Value": "img/product/testdetail_ae94c2c4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/testdetail_ae94c2c4.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_ae94c2c4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 04:25:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/testdetail_c6bbe442.1ilm03d63p.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_c6bbe442.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 04:31:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1ilm03d63p"
+        },
+        {
+          "Name": "label",
+          "Value": "img/product/testdetail_c6bbe442.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/testdetail_c6bbe442.png",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_c6bbe442.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 04:31:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0="
+        }
+      ]
+    },
+    {
       "Route": "img/product/Zalo_637309416464211285_6919bfa2.eix39ythw5.jpg",
       "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\Zalo_637309416464211285_6919bfa2.jpg",
       "Selectors": [],
@@ -197725,6 +198776,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-yEORRvxrc4Ub1J5MMDlfznr7D73PEHp6Tv8Kh8gJ2Mg="
+        }
+      ]
+    },
+    {
+      "Route": "js/chatbot.js",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\js\\chatbot.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xUd7tVfYHBWGqM6cbw16V/LKxVaqMYlu1sdTdsYRVGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 03:30:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xUd7tVfYHBWGqM6cbw16V/LKxVaqMYlu1sdTdsYRVGM="
+        }
+      ]
+    },
+    {
+      "Route": "js/chatbot.nlj0hdhlvf.js",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\js\\chatbot.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xUd7tVfYHBWGqM6cbw16V/LKxVaqMYlu1sdTdsYRVGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 03:30:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nlj0hdhlvf"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chatbot.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xUd7tVfYHBWGqM6cbw16V/LKxVaqMYlu1sdTdsYRVGM="
         }
       ]
     },

@@ -6965,6 +6965,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
+      "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\css\\chatbot.css",
+      "PackagePath": "staticwebassets\\css\\chatbot.css"
+    },
+    {
       "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\css\\chosen-sprite.png",
       "PackagePath": "staticwebassets\\css\\chosen-sprite.png"
     },
@@ -7023,6 +7027,10 @@
     {
       "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\3.jpg",
       "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\Mess.png",
+      "PackagePath": "staticwebassets\\img\\Mess.png"
     },
     {
       "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\author\\1.jpg",
@@ -7197,6 +7205,10 @@
       "PackagePath": "staticwebassets\\img\\blog\\6.jpg"
     },
     {
+      "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\blog\\testdetail.png",
+      "PackagePath": "staticwebassets\\img\\blog\\testdetail.png"
+    },
+    {
       "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\cart\\1.jpg",
       "PackagePath": "staticwebassets\\img\\cart\\1.jpg"
     },
@@ -7283,6 +7295,14 @@
     {
       "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\logo\\airtentive.jpg",
       "PackagePath": "staticwebassets\\img\\logo\\airtentive.jpg"
+    },
+    {
+      "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\logo\\airtentive_2.png",
+      "PackagePath": "staticwebassets\\img\\logo\\airtentive_2.png"
+    },
+    {
+      "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\logo\\airtentive_3.png",
+      "PackagePath": "staticwebassets\\img\\logo\\airtentive_3.png"
     },
     {
       "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\logo\\logo.png",
@@ -7513,6 +7533,26 @@
       "PackagePath": "staticwebassets\\img\\product\\rua_46811bf1.jpg"
     },
     {
+      "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_6aa7b00d.png",
+      "PackagePath": "staticwebassets\\img\\product\\testdetail_6aa7b00d.png"
+    },
+    {
+      "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_6d68a700.png",
+      "PackagePath": "staticwebassets\\img\\product\\testdetail_6d68a700.png"
+    },
+    {
+      "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_a6f8313a.png",
+      "PackagePath": "staticwebassets\\img\\product\\testdetail_a6f8313a.png"
+    },
+    {
+      "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_ae94c2c4.png",
+      "PackagePath": "staticwebassets\\img\\product\\testdetail_ae94c2c4.png"
+    },
+    {
+      "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_c6bbe442.png",
+      "PackagePath": "staticwebassets\\img\\product\\testdetail_c6bbe442.png"
+    },
+    {
       "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\tải xuống_03cfe10b.png",
       "PackagePath": "staticwebassets\\img\\product\\tải xuống_03cfe10b.png"
     },
@@ -7615,6 +7655,10 @@
     {
       "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\js\\chatbot.js",
+      "PackagePath": "staticwebassets\\js\\chatbot.js"
     },
     {
       "Id": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\js\\chosen.jquery.min.js",

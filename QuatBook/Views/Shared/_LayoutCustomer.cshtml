@@ -98,11 +98,32 @@
 		</div>
 		<!-- header-top-area-end -->
 		<!-- header-mid-area-start -->
+
+
+		<style>
+			.logo_airtentive {
+				width: 250px;
+				height: 75px;
+				object-fit: contain; /* Keeps aspect ratio, optional */
+			}
+		</style>
 		<div class="header-mid-area">
 			<div class="container">
 				<div class="row">
+					<div class="col-lg-6 col-md-4 col-12">
+						<div class="logo-area text-center logo-xs-mrg">
+							<a asp-controller="Product" asp-action="Index">
+								<img id="logo_airtentive" class="logo_airtentive" src="~/img/logo//airtentive_3.png" style="width:100px; height:100px;" alt="logo" />
+							</a>
+							<a asp-controller="Product" asp-action="Index">
+								<img id="logo_airtentive" class="logo_airtentive" src="~/img/logo//airtentive_2.png" alt="logo" />
+							</a>
+						</div>
+					</div>
+					
 					@await Html.PartialAsync("~/Views/Common/Header/SearchHeader.cshtml")
 					<!-- add search vào do _LayoutCustomer do chia ra-->
+
 					<div class="col-lg-3 col-md-3 col-12 d-flex align-items-center h-100">
 						<div class="my-cart">
 							<ul>
@@ -113,6 +134,7 @@
 							</ul>
 						</div>
 					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -170,8 +192,10 @@
 										<a href="#">Bài Viết<i class="fa fa-angle-down"></i></a>
 										<div class="sub-menu sub-menu-2">
 											<ul>
-												<li><a href="blog.html">blog</a></li>
-												<li><a href="blog-details.html">blog-details</a></li>
+												@* <li><a href="blog.html">Thông tin thời tiết</a></li> *@
+												
+												<li><a asp-controller="Blog" asp-action="BlogList">Bài viết</a></li>
+												<li><a asp-controller="Blog" asp-action="BlogQNAList">Thắc mắc về sản phẩm</a></li>
 											</ul>
 										</div>
 									</li>

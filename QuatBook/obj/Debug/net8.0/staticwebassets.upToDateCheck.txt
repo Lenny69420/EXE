@@ -1738,6 +1738,7 @@ wwwroot\admin\vendor\jquery-easing\jquery.easing.js
 wwwroot\admin\vendor\jquery-easing\jquery.easing.min.js
 wwwroot\css\animate.css
 wwwroot\css\bootstrap.min.css
+wwwroot\css\chatbot.css
 wwwroot\css\chosen.min.css
 wwwroot\css\chosen-sprite.png
 wwwroot\css\chosen-sprite@2x.html
@@ -1796,6 +1797,7 @@ wwwroot\img\blog\2.jpg
 wwwroot\img\blog\3.jpg
 wwwroot\img\blog\4.jpg
 wwwroot\img\blog\6.jpg
+wwwroot\img\blog\testdetail.png
 wwwroot\img\cart\1.jpg
 wwwroot\img\cart\2.jpg
 wwwroot\img\favicon.png
@@ -1818,7 +1820,10 @@ wwwroot\img\logo\3.png
 wwwroot\img\logo\4.png
 wwwroot\img\logo\5.png
 wwwroot\img\logo\airtentive.jpg
+wwwroot\img\logo\airtentive_2.png
+wwwroot\img\logo\airtentive_3.png
 wwwroot\img\logo\logo.png
+wwwroot\img\Mess.png
 wwwroot\img\post\1.jpg
 wwwroot\img\post\2.jpg
 wwwroot\img\post\3.jpg
@@ -1874,6 +1879,11 @@ wwwroot\img\product\rua_2a0b7ee2.jpg
 wwwroot\img\product\rua_45a34581.jpg
 wwwroot\img\product\rua_46811bf1.jpg
 wwwroot\img\product\tải xuống_03cfe10b.png
+wwwroot\img\product\testdetail_6aa7b00d.png
+wwwroot\img\product\testdetail_6d68a700.png
+wwwroot\img\product\testdetail_a6f8313a.png
+wwwroot\img\product\testdetail_ae94c2c4.png
+wwwroot\img\product\testdetail_c6bbe442.png
 wwwroot\img\product\Zalo_637309416464211285_6919bfa2.jpg
 wwwroot\img\product\Zalo_637309416464211285_9559b790.jpg
 wwwroot\img\profile\deadline1_34d31d5b.jpg
@@ -1901,6 +1911,7 @@ wwwroot\img\team\3.jpg
 wwwroot\img\team\4.jpg
 wwwroot\js\ajax-mail.js
 wwwroot\js\bootstrap.min.js
+wwwroot\js\chatbot.js
 wwwroot\js\chosen.jquery.min.js
 wwwroot\js\jquery.countdown.min.js
 wwwroot\js\jquery.counterup.min.js
