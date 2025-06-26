@@ -30,8 +30,17 @@
                         <div class="col-lg-4 col-md-6 col-12">
                             <div class="flexslider">
                                 <ul class="slides">
-                                    <li data-thumb="~/img/blog/testdetail.png">
-                                        <img class="img-fluid" src="~/img/product/@ViewBag.Blog.Image" style="object-fit : cover;width: 300px; height: 198px;">
+                                    <li data-thumb="@(ViewBag.Blog.Image != null && ViewBag.Blog.Image.Length > 0 ? $"data:image/jpeg;base64,{Convert.ToBase64String(ViewBag.Blog.Image)}" : "~/img/blog/testdetail.png")">
+                                        @if (ViewBag.Blog.Image != null && ViewBag.Blog.Image.Length > 0)
+                                        {
+                                            var base64String = Convert.ToBase64String(ViewBag.Blog.Image);
+                                            var imageSrc = $"data:image/jpeg;base64,{base64String}";
+                                            <img class="img-fluid" src="@imageSrc" alt="@ViewBag.Blog.Title" style="object-fit: cover; width: 300px; height: 198px;">
+                                        }
+                                        else
+                                        {
+                                            <img class="img-fluid" src="~/img/blog/testdetail.png" alt="@ViewBag.Blog.Title" style="object-fit: cover; width: 300px; height: 198px;">
+                                        }
                                     </li>
                                 </ul>
                             </div>

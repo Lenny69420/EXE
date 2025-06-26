@@ -30,8 +30,17 @@
                         <div class="col-lg-5 col-md-6 col-12">
                             <div class="flexslider">
                                 <ul class="slides">
-                                    <li data-thumb="~/img/product/@Model.Image">
-                                        <img src="~/img/product/@Model.Image" alt="woman" />
+                                    <li data-thumb="@(Model.Image != null && Model.Image.Length > 0 ? $"data:image/jpeg;base64,{Convert.ToBase64String(Model.Image)}" : "/img/book-placeholder.png")">
+                                        @if (Model.Image != null && Model.Image.Length > 0)
+                                        {
+                                            var base64String = Convert.ToBase64String(Model.Image);
+                                            var imageSrc = $"data:image/jpeg;base64,{base64String}";
+                                            <img src="@imageSrc" alt="@Model.BookName" />
+                                        }
+                                        else
+                                        {
+                                            <img src="~/img/book-placeholder.png" alt="@Model.BookName" />
+                                        }
                                     </li>
                                 </ul>
                             </div>
@@ -163,7 +172,16 @@
                                 <div class="product-wrapper">
                                     <div class="product-img">
                                         <a asp-action="Detail" asp-controller="Product" asp-route-bookId="@product.BookId">
-                                            <img src="~/img/product/@product.Image" alt="@product.BookName" class="primary" />
+                                            @if (product.Image != null && product.Image.Length > 0)
+                                            {
+                                                var base64String = Convert.ToBase64String(product.Image);
+                                                var imageSrc = $"data:image/jpeg;base64,{base64String}";
+                                                <img src="@imageSrc" alt="@product.BookName" class="primary" />
+                                            }
+                                            else
+                                            {
+                                                <img src="~/img/book-placeholder.png" alt="@product.BookName" class="primary" />
+                                            }
                                         </a>
                                         <div class="quick-view">
                                             <a class="action-view" href="#" data-bs-target="#productModal" data-bs-toggle="modal" title="Quick View">
@@ -230,7 +248,18 @@
                                     {
                                         <div class="single-most-product bd mb-18">
                                             <div class="most-product-img">
-                                                <a href="#"><img src="~/img/product/@product.Image" alt="book" /></a>
+                                                <a href="#">
+                                                    @if (product.Image != null && product.Image.Length > 0)
+                                                    {
+                                                        var base64String = Convert.ToBase64String(product.Image);
+                                                        var imageSrc = $"data:image/jpeg;base64,{base64String}";
+                                                        <img src="@imageSrc" alt="book" />
+                                                    }
+                                                    else
+                                                    {
+                                                        <img src="~/img/book-placeholder.png" alt="book" />
+                                                    }
+                                                </a>
                                             </div>
                                             <div class="most-product-content">
                                                 <div class="product-rating">

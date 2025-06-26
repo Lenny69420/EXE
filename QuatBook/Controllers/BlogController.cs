@@ -58,10 +58,9 @@ namespace QuatBook.Controllers
             try
             {
 
-                // Xử lý upload ảnh
                 if (ImageFile != null && ImageFile.Length > 0)
                 {
-                    blog.Image = UploadImage.UploadHinh(ImageFile, "product");
+                    blog.Image = await UploadImage.ConvertToByteArrayAsync(ImageFile);
                 }
 
 

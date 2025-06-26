@@ -9,7 +9,7 @@ public partial class Product
 
     public string BookName { get; set; } = null!;
 
-    public string? Image { get; set; }
+    public byte[]? Image { get; set; }
 
     public int? Quantity { get; set; }
 

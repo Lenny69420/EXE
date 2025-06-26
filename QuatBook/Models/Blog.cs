@@ -11,5 +11,5 @@ public partial class Blog
 
     public string Description { get; set; } = null!;
 
-    public string? Image { get; set; }
+    public byte[]? Image { get; set; }
 }

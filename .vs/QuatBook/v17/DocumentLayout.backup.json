@@ -3,64 +3,12 @@
   "WorkspaceRootPath": "D:\\GitHub\\EXE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\models\\quatbookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\models\\quatbookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\models2\\quatbookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\models2\\quatbookcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\models2\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\models2\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\wwwroot\\js\\chatbot.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\wwwroot\\js\\chatbot.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\views\\shared\\_chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\views\\shared\\_chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\wwwroot\\css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\wwwroot\\css\\chatbot.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\helpers\\geminihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\helpers\\geminihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\views\\product\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\views\\product\\productitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\views\\shared\\_listproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\views\\shared\\_listproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -71,20 +19,44 @@
       "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\views\\shared\\_layoutcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\views\\blog\\bloglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\views\\blog\\bloglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\views\\blog\\blogdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\views\\blog\\blogdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\views\\common\\header\\searchheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\views\\common\\header\\searchheader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\dto\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\views\\shared\\_orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\views\\shared\\_orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\views\\manager\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\views\\manager\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\views\\shared\\_addblogmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\views\\shared\\_addblogmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\helpers\\uploadimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\helpers\\uploadimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|d:\\github\\exe\\quatbook\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC430AE2-C0E0-4F3E-A748-C35D5924F2DF}|QuatBook\\QuatBook.csproj|solutionrelative:quatbook\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 132,
+          "SelectedChildIndex": 117,
           "Children": [
             {
               "$type": "Bookmark",
@@ -566,256 +538,185 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QuatBookContext.cs",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Models\\QuatBookContext.cs",
-              "RelativeDocumentMoniker": "QuatBook\\Models\\QuatBookContext.cs",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Models\\QuatBookContext.cs",
-              "RelativeToolTip": "QuatBook\\Models\\QuatBookContext.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAiwFoAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T13:08:34.343Z"
+              "DocumentIndex": 0,
+              "Title": "ProductItem.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Views\\Product\\ProductItem.cshtml",
+              "RelativeDocumentMoniker": "QuatBook\\Views\\Product\\ProductItem.cshtml",
+              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Views\\Product\\ProductItem.cshtml",
+              "RelativeToolTip": "QuatBook\\Views\\Product\\ProductItem.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T10:22:39.521Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "QuatBookContext.cs",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Models2\\QuatBookContext.cs",
-              "RelativeDocumentMoniker": "QuatBook\\Models2\\QuatBookContext.cs",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Models2\\QuatBookContext.cs",
-              "RelativeToolTip": "QuatBook\\Models2\\QuatBookContext.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAiwF0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T13:08:22.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Blog.cs",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Models\\Blog.cs",
-              "RelativeDocumentMoniker": "QuatBook\\Models\\Blog.cs",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Models\\Blog.cs",
-              "RelativeToolTip": "QuatBook\\Models\\Blog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T13:08:17.133Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Blog.cs",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Models2\\Blog.cs",
-              "RelativeDocumentMoniker": "QuatBook\\Models2\\Blog.cs",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Models2\\Blog.cs",
-              "RelativeToolTip": "QuatBook\\Models2\\Blog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T13:08:10.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Program.cs",
-              "RelativeDocumentMoniker": "QuatBook\\Program.cs",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Program.cs",
-              "RelativeToolTip": "QuatBook\\Program.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAhwE8AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T03:19:17.8Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "QuatBook\\appsettings.Development.json",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\appsettings.Development.json",
-              "RelativeToolTip": "QuatBook\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-18T03:17:30.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\appsettings.json",
-              "RelativeDocumentMoniker": "QuatBook\\appsettings.json",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\appsettings.json",
-              "RelativeToolTip": "QuatBook\\appsettings.json",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-18T03:17:24.573Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_ListProduct.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Views\\Shared\\_ListProduct.cshtml",
-              "RelativeDocumentMoniker": "QuatBook\\Views\\Shared\\_ListProduct.cshtml",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Views\\Shared\\_ListProduct.cshtml",
-              "RelativeToolTip": "QuatBook\\Views\\Shared\\_ListProduct.cshtml",
-              "ViewState": "AgIAANcAAAAAAAAAAAAAAPQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T03:07:05.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "QuatBook\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "QuatBook\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T03:05:28.329Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "QuatBook\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "QuatBook\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T03:05:20.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ChatController.cs",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Controllers\\ChatController.cs",
-              "RelativeDocumentMoniker": "QuatBook\\Controllers\\ChatController.cs",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Controllers\\ChatController.cs",
-              "RelativeToolTip": "QuatBook\\Controllers\\ChatController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T03:01:46.015Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "chatbot.js",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\js\\chatbot.js",
-              "RelativeDocumentMoniker": "QuatBook\\wwwroot\\js\\chatbot.js",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\js\\chatbot.js",
-              "RelativeToolTip": "QuatBook\\wwwroot\\js\\chatbot.js",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-06-18T02:59:55.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "chatbot.css",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\css\\chatbot.css",
-              "RelativeDocumentMoniker": "QuatBook\\wwwroot\\css\\chatbot.css",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\css\\chatbot.css",
-              "RelativeToolTip": "QuatBook\\wwwroot\\css\\chatbot.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-18T02:58:18.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Chatbot.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Views\\Shared\\_Chatbot.cshtml",
-              "RelativeDocumentMoniker": "QuatBook\\Views\\Shared\\_Chatbot.cshtml",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Views\\Shared\\_Chatbot.cshtml",
-              "RelativeToolTip": "QuatBook\\Views\\Shared\\_Chatbot.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T02:57:06.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GeminiHelper.cs",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Helpers\\GeminiHelper.cs",
-              "RelativeDocumentMoniker": "QuatBook\\Helpers\\GeminiHelper.cs",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Helpers\\GeminiHelper.cs",
-              "RelativeToolTip": "QuatBook\\Helpers\\GeminiHelper.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:56:04.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BlogController.cs",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Controllers\\BlogController.cs",
-              "RelativeDocumentMoniker": "QuatBook\\Controllers\\BlogController.cs",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Controllers\\BlogController.cs",
-              "RelativeToolTip": "QuatBook\\Controllers\\BlogController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T02:54:00.087Z",
+              "WhenOpened": "2025-06-26T10:20:29.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "BlogList.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Views\\Blog\\BlogList.cshtml",
-              "RelativeDocumentMoniker": "QuatBook\\Views\\Blog\\BlogList.cshtml",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Views\\Blog\\BlogList.cshtml",
-              "RelativeToolTip": "QuatBook\\Views\\Blog\\BlogList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "_ListProduct.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Views\\Shared\\_ListProduct.cshtml",
+              "RelativeDocumentMoniker": "QuatBook\\Views\\Shared\\_ListProduct.cshtml",
+              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Views\\Shared\\_ListProduct.cshtml",
+              "RelativeToolTip": "QuatBook\\Views\\Shared\\_ListProduct.cshtml",
+              "ViewState": "AgIAANcAAAAAAAAAAAAQwOcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T02:45:55.307Z"
+              "WhenOpened": "2025-06-26T10:19:29.925Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BlogDetail.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Views\\Blog\\BlogDetail.cshtml",
-              "RelativeDocumentMoniker": "QuatBook\\Views\\Blog\\BlogDetail.cshtml",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Views\\Blog\\BlogDetail.cshtml",
-              "RelativeToolTip": "QuatBook\\Views\\Blog\\BlogDetail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T02:45:54.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SearchHeader.cshtml",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Views\\Common\\Header\\SearchHeader.cshtml",
-              "RelativeDocumentMoniker": "QuatBook\\Views\\Common\\Header\\SearchHeader.cshtml",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Views\\Common\\Header\\SearchHeader.cshtml",
-              "RelativeToolTip": "QuatBook\\Views\\Common\\Header\\SearchHeader.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T03:44:36.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "style.css",
-              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\css\\style.css",
-              "RelativeDocumentMoniker": "QuatBook\\wwwroot\\css\\style.css",
-              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\css\\style.css",
-              "RelativeToolTip": "QuatBook\\wwwroot\\css\\style.css",
-              "ViewState": "AgIAADcDAAAAAAAAAADgv0sDAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-10T03:35:34.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
               "Title": "_LayoutCustomer.cshtml",
               "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Views\\Shared\\_LayoutCustomer.cshtml",
               "RelativeDocumentMoniker": "QuatBook\\Views\\Shared\\_LayoutCustomer.cshtml",
               "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Views\\Shared\\_LayoutCustomer.cshtml",
               "RelativeToolTip": "QuatBook\\Views\\Shared\\_LayoutCustomer.cshtml",
-              "ViewState": "AgIAABYBAAAAAAAAAAAswGcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-10T03:33:40.454Z"
+              "WhenOpened": "2025-06-26T10:19:13.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartDTO.cs",
+              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Dto\\CartDTO.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Dto\\CartDTO.cs",
+              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Dto\\CartDTO.cs",
+              "RelativeToolTip": "QuatBook\\Dto\\CartDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:14:20.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Controllers\\CartController.cs",
+              "RelativeToolTip": "QuatBook\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:13:47.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_OrderDetails.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Views\\Shared\\_OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "QuatBook\\Views\\Shared\\_OrderDetails.cshtml",
+              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Views\\Shared\\_OrderDetails.cshtml",
+              "RelativeToolTip": "QuatBook\\Views\\Shared\\_OrderDetails.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswDAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T10:11:43.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Views\\Manager\\Shop.cshtml",
+              "RelativeDocumentMoniker": "QuatBook\\Views\\Manager\\Shop.cshtml",
+              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Views\\Manager\\Shop.cshtml",
+              "RelativeToolTip": "QuatBook\\Views\\Manager\\Shop.cshtml",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAswK4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T10:11:24.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Dto\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Dto\\ProductDTO.cs",
+              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Dto\\ProductDTO.cs",
+              "RelativeToolTip": "QuatBook\\Dto\\ProductDTO.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwCIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:05:29.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "QuatBook\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:04:52.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Models\\Blog.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Models\\Blog.cs",
+              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Models\\Blog.cs",
+              "RelativeToolTip": "QuatBook\\Models\\Blog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:00:20.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_AddBlogModal.cshtml",
+              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Views\\Shared\\_AddBlogModal.cshtml",
+              "RelativeDocumentMoniker": "QuatBook\\Views\\Shared\\_AddBlogModal.cshtml",
+              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Views\\Shared\\_AddBlogModal.cshtml",
+              "RelativeToolTip": "QuatBook\\Views\\Shared\\_AddBlogModal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T09:58:43.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UploadImage.cs",
+              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Helpers\\UploadImage.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Helpers\\UploadImage.cs",
+              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Helpers\\UploadImage.cs",
+              "RelativeToolTip": "QuatBook\\Helpers\\UploadImage.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwCUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T09:56:20.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "D:\\GitHub\\EXE\\QuatBook\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "QuatBook\\Controllers\\BlogController.cs",
+              "ToolTip": "D:\\GitHub\\EXE\\QuatBook\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "QuatBook\\Controllers\\BlogController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T09:56:17.708Z",
+              "EditorCaption": ""
             }
           ]
         },

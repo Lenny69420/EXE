@@ -13,7 +13,16 @@
                 <div class="product-wrapper mb-40">
                     <div class="product-img">
                         <a asp-action="Detail" asp-controller="Product" asp-route-bookId="@product.BookId">
-                            <img src="~/img/product/@product.Image" alt="@product.BookName" class="primary" />
+                            @if (product.Image != null && product.Image.Length > 0)
+                            {
+                                var base64String = Convert.ToBase64String(product.Image);
+                                var imageSrc = $"data:image/jpeg;base64,{base64String}";
+                                <img src="@imageSrc" alt="@product.BookName" class="primary" />
+                            }
+                            else
+                            {
+                                <img src="~/img/book-placeholder.png" alt="@product.BookName" class="primary" />
+                            }
                         </a>
                         <div class="quick-view">
                             <a class="action-view" href="#" data-bs-target="#productModal" data-bs-toggle="modal" title="Quick View">
@@ -98,7 +107,14 @@ else
                     const existingProduct = container.find(`div[data-book-id='${product.bookId}']`);
                     if (existingProduct.length) {
                         existingProduct.find('h4 a').text(product.bookName);
-                        existingProduct.find('.product-img img').attr('src', `/img/product/${product.image}`);
+
+                        if (product.image && product.image.length > 0) {
+                         const base64String = btoa(String.fromCharCode.apply(null, new Uint8Array(product.image)));
+                          existingProduct.find('.product-img img').attr('src', `data:image/jpeg;base64,${base64String}`);
+                        } else {
+                                 existingProduct.find('.product-img img').attr('src', '/img/book-placeholder.png');
+                         }
+
                         existingProduct.find('.product-price li').text(`${product.price} VND`);
                         existingProduct.find('.product-details span').text(product.categoryName);
                     } else {

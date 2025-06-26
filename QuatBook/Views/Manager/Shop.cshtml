@@ -167,10 +167,10 @@
                                                 <i class="fas fa-trash-alt"></i> Delete
                                             </a>
                                             <!-- Nút Toggle Active -->
-                                            <button class="btn btn-sm @(item.active == true ? "btn-success" : "btn-secondary") toggle-active"
+                                            <button class="btn btn-sm @(item.Active == true ? "btn-success" : "btn-secondary") toggle-active"
                                                     data-id="@item.BookId"
                                                     onclick="toggleActive(@item.BookId, this)">
-                                                <i class="fas fa-power-off"></i> @(item.active == true ? "Active" : "Inactive")
+                                                <i class="fas fa-power-off"></i> @(item.Active == true ? "Active" : "Inactive")
                                             </button>
                                         </div>
                                     </td>

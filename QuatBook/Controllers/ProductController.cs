@@ -42,7 +42,7 @@ namespace QuatBook.Controllers
             {
                 BookId = p.BookId,
                 BookName = p.BookName,
-                Image = p.Image ?? "",
+                Image = p.Image ?? new byte[0],
                 Price = p.Price ?? 0,
                 CategoryName = p.Category.CategoryName
             }).ToList();
@@ -69,7 +69,7 @@ namespace QuatBook.Controllers
             {
                 BookId = p.BookId,
                 BookName = p.BookName,
-                Image = p.Image ?? "",
+                Image = p.Image ?? new byte[0],
                 Price = p.Price ?? 0,
                 CategoryName = p.Category.CategoryName
             }).ToList();
@@ -97,7 +97,7 @@ namespace QuatBook.Controllers
             {
                 BookId = data.BookId,
                 BookName = data.BookName,
-                Image = data.Image ?? "",
+                Image = data.Image ?? new byte[0],
                 Description = data.Description ?? string.Empty,
                 Price = data.Price ?? 0,
                 Quantity = data.Quantity ?? 0,
@@ -122,7 +122,7 @@ namespace QuatBook.Controllers
                       {
                           BookId = p.BookId,
                           BookName = p.BookName,
-                          Image = p.Image ?? "",
+                          Image = p.Image ?? new byte[0],
                           Price = p.Price ?? 0,
                           CategoryName = p.Category.CategoryName
                       })
@@ -130,12 +130,12 @@ namespace QuatBook.Controllers
 
 
             var products = _context.Products
-               .Where(p => p.active == true)
+               .Where(p => p.Active == true)
                .Select(p => new ProductDTO
                {
                    BookId = p.BookId,
                    BookName = p.BookName,
-                   Image = p.Image ?? "",
+                   Image = p.Image ?? new byte[0],
                    Price = p.Price ?? 0,
                    CategoryName = p.Category.CategoryName
                }).Take(4)
@@ -155,12 +155,12 @@ namespace QuatBook.Controllers
         public IActionResult GetActiveProducts()
         {
             var products = _context.Products
-                .Where(p => p.active == true)
+                .Where(p => p.Active == true)
                 .Select(p => new ProductDTO
                 {
                     BookId = p.BookId,
                     BookName = p.BookName,
-                    Image = p.Image ?? "",
+                    Image = p.Image ?? new byte[0],
                     Price = p.Price ?? 0,
                     CategoryName = p.Category.CategoryName
                 })
@@ -179,10 +179,12 @@ namespace QuatBook.Controllers
                 // Xử lý upload ảnh
                 if (ImageFile != null && ImageFile.Length > 0)
                 {
-                    product.Image = UploadImage.UploadHinh(ImageFile, "product");
+                    // To (using the method from the BlogController fix):
+                    product.Image = await UploadImage.ConvertToByteArrayAsync(ImageFile);
+
                 }
 
-                product.active = true;
+                product.Active = true;
 
 
                 // ✅ Thêm sản phẩm vào database
@@ -256,7 +258,8 @@ namespace QuatBook.Controllers
                 // Xử lý upload ảnh nếu có
                 if (ImageFile != null && ImageFile.Length > 0)
                 {
-                    existingProduct.Image = UploadImage.UploadHinh(ImageFile, "product");
+                    existingProduct.Image = await UploadImage.ConvertToByteArrayAsync(ImageFile);
+
                 }
 
                 _context.Products.Update(existingProduct);
@@ -311,7 +314,7 @@ namespace QuatBook.Controllers
             }
 
             // Toggle trạng thái bool
-            product.active = !product.active.GetValueOrDefault(); // Nếu null thì mặc định false
+            product.Active = !product.Active.GetValueOrDefault(); // Nếu null thì mặc định false
             await _context.SaveChangesAsync();
 
             // Gửi thông báo SignalR
@@ -320,8 +323,8 @@ namespace QuatBook.Controllers
             return Json(new
             {
                 success = true,
-                active = product.active,
-                message = $"Product is now {(product.active == true ? "Active" : "Inactive")}"
+                active = product.Active,
+                message = $"Product is now {(product.Active == true ? "Active" : "Inactive")}"
             });
         }
 

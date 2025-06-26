@@ -10,7 +10,16 @@
 					<a asp-action="Detail"
 					   asp-controller="Product"
 					   asp-route-bookId="@item.bookId">
-						<img src="~/img/product/@item.Image" alt="@item.BookName" />
+						@if (item.Image != null && item.Image.Length > 0)
+						{
+							var base64String = Convert.ToBase64String(item.Image);
+							var imageSrc = $"data:image/jpeg;base64,{base64String}";
+							<img src="@imageSrc" alt="book" />
+						}
+						else
+						{
+							<img src="~/img/book-placeholder.png" alt="book" />
+						}
 					</a>
 				</div>
 				<div class="cart-info">
