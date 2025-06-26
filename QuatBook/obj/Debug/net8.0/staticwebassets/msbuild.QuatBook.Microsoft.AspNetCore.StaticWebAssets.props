@@ -33336,6 +33336,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\3.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>QuatBook</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QuatBook</BasePath>
+      <RelativePath>img/product/3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pqpyyklspe</Fingerprint>
+      <Integrity>L8d+X1ckBcX/K/9+tzI8Vd1XlSfBkDJIZeeCKrVsUG4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\4.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>QuatBook</SourceId>
@@ -33840,6 +33858,78 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\rua_46811bf1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>QuatBook</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QuatBook</BasePath>
+      <RelativePath>img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9i3g5x6rjv</Fingerprint>
+      <Integrity>PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>QuatBook</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QuatBook</BasePath>
+      <RelativePath>img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9i3g5x6rjv</Fingerprint>
+      <Integrity>PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>QuatBook</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QuatBook</BasePath>
+      <RelativePath>img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9i3g5x6rjv</Fingerprint>
+      <Integrity>PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>QuatBook</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QuatBook</BasePath>
+      <RelativePath>img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9i3g5x6rjv</Fingerprint>
+      <Integrity>PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\testdetail_6aa7b00d.png'))">
       <SourceType>Package</SourceType>
       <SourceId>QuatBook</SourceId>
@@ -33929,6 +34019,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\testdetail_c6bbe442.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>QuatBook</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/QuatBook</BasePath>
+      <RelativePath>img/product/top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1hy09ti77m</Fingerprint>
+      <Integrity>hcu9GWQcorVFNOFFZ/5pfQS2wOlGFs5Gsdvk3DSr3vw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\tải xuống_03cfe10b.png'))">
       <SourceType>Package</SourceType>

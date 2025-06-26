@@ -22212,6 +22212,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wfjmulee1m"},{"Name":"integrity","Value":"sha256-FEIMqV3w7OG6Xh5MFF5sklfE6j93S\u002Bfq7q8IBb9SEmU="},{"Name":"label","Value":"_content/QuatBook/img/product/29.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4900"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022FEIMqV3w7OG6Xh5MFF5sklfE6j93S\u002Bfq7q8IBb9SEmU=\u0022"},{"Name":"Last-Modified","Value":"Sat, 24 May 2025 12:48:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QuatBook/img/product/3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-L8d\u002BX1ckBcX/K/9\u002BtzI8Vd1XlSfBkDJIZeeCKrVsUG4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"38210"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022L8d\u002BX1ckBcX/K/9\u002BtzI8Vd1XlSfBkDJIZeeCKrVsUG4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 13:16:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QuatBook/img/product/3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.pqpyyklspe.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pqpyyklspe"},{"Name":"integrity","Value":"sha256-L8d\u002BX1ckBcX/K/9\u002BtzI8Vd1XlSfBkDJIZeeCKrVsUG4="},{"Name":"label","Value":"_content/QuatBook/img/product/3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"38210"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022L8d\u002BX1ckBcX/K/9\u002BtzI8Vd1XlSfBkDJIZeeCKrVsUG4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 13:16:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/QuatBook/img/product/3.ivz0zfmdwi.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\3.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -22560,6 +22572,54 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k78phugnlf"},{"Name":"integrity","Value":"sha256-MGGh39Oi6zOD8mbdHuExk0ZvlPUb5sQrPH/UX0GLfyg="},{"Name":"label","Value":"_content/QuatBook/img/product/rua_46811bf1.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"161378"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022MGGh39Oi6zOD8mbdHuExk0ZvlPUb5sQrPH/UX0GLfyg=\u0022"},{"Name":"Last-Modified","Value":"Sat, 24 May 2025 12:48:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QuatBook/img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.9i3g5x6rjv.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9i3g5x6rjv"},{"Name":"integrity","Value":"sha256-PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac="},{"Name":"label","Value":"_content/QuatBook/img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62701"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 13:06:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QuatBook/img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"62701"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 13:06:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QuatBook/img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.9i3g5x6rjv.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9i3g5x6rjv"},{"Name":"integrity","Value":"sha256-PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac="},{"Name":"label","Value":"_content/QuatBook/img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62701"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 13:05:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QuatBook/img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"62701"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 13:05:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QuatBook/img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.9i3g5x6rjv.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9i3g5x6rjv"},{"Name":"integrity","Value":"sha256-PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac="},{"Name":"label","Value":"_content/QuatBook/img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62701"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 13:04:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QuatBook/img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"62701"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 13:04:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QuatBook/img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.9i3g5x6rjv.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9i3g5x6rjv"},{"Name":"integrity","Value":"sha256-PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac="},{"Name":"label","Value":"_content/QuatBook/img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62701"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 13:09:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QuatBook/img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"62701"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022PyFbzXpt1PT4WQxB2sFueDS\u002BwME3cpSu8cbBej7sqac=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 13:09:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/QuatBook/img/product/testdetail_6aa7b00d.1ilm03d63p.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\testdetail_6aa7b00d.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -22619,6 +22679,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"49526"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 03 Jun 2025 04:31:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QuatBook/img/product/top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.1hy09ti77m.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1hy09ti77m"},{"Name":"integrity","Value":"sha256-hcu9GWQcorVFNOFFZ/5pfQS2wOlGFs5Gsdvk3DSr3vw="},{"Name":"label","Value":"_content/QuatBook/img/product/top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14280"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hcu9GWQcorVFNOFFZ/5pfQS2wOlGFs5Gsdvk3DSr3vw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 03:39:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/QuatBook/img/product/top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hcu9GWQcorVFNOFFZ/5pfQS2wOlGFs5Gsdvk3DSr3vw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"14280"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hcu9GWQcorVFNOFFZ/5pfQS2wOlGFs5Gsdvk3DSr3vw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Jun 2025 03:39:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/QuatBook/img/product/tải xuống_03cfe10b.7st4rb00sd.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\product\tải xuống_03cfe10b.png'))</AssetFile>

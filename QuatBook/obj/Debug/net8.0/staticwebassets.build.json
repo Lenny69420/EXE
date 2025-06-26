@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Bb+mD3gqmUGcuFwIXtyPREYQ6oosyEQwFQXVkvv70lw=",
+  "Hash": "rvhJneog2sMxmVSLTRVGI4uScSSRFDEPk3/Wt29sIdo=",
   "Source": "QuatBook",
   "BasePath": "_content/QuatBook",
   "Mode": "Default",
@@ -38951,6 +38951,27 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\3.jpg"
     },
     {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.jpg",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "img/product/3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pqpyyklspe",
+      "Integrity": "L8d+X1ckBcX/K/9+tzI8Vd1XlSfBkDJIZeeCKrVsUG4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\product\\3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.jpg"
+    },
+    {
       "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\4.jpg",
       "SourceId": "QuatBook",
       "SourceType": "Discovered",
@@ -39560,6 +39581,90 @@
       "OriginalItemSpec": "wwwroot\\img\\product\\tải xuống_03cfe10b.png"
     },
     {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.jpg",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9i3g5x6rjv",
+      "Integrity": "PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.jpg"
+    },
+    {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.jpg",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9i3g5x6rjv",
+      "Integrity": "PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.jpg"
+    },
+    {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.jpg",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9i3g5x6rjv",
+      "Integrity": "PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.jpg"
+    },
+    {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.jpg",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9i3g5x6rjv",
+      "Integrity": "PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.jpg"
+    },
+    {
       "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_6aa7b00d.png",
       "SourceId": "QuatBook",
       "SourceType": "Discovered",
@@ -39663,6 +39768,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\product\\testdetail_c6bbe442.png"
+    },
+    {
+      "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.jpg",
+      "SourceId": "QuatBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\",
+      "BasePath": "_content/QuatBook",
+      "RelativePath": "img/product/top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1hy09ti77m",
+      "Integrity": "hcu9GWQcorVFNOFFZ/5pfQS2wOlGFs5Gsdvk3DSr3vw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\product\\top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.jpg"
     },
     {
       "Identity": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\Zalo_637309416464211285_6919bfa2.jpg",
@@ -193778,6 +193904,88 @@
       ]
     },
     {
+      "Route": "img/product/3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.jpg",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38210"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L8d+X1ckBcX/K/9+tzI8Vd1XlSfBkDJIZeeCKrVsUG4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 13:16:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L8d+X1ckBcX/K/9+tzI8Vd1XlSfBkDJIZeeCKrVsUG4="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.pqpyyklspe.jpg",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38210"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L8d+X1ckBcX/K/9+tzI8Vd1XlSfBkDJIZeeCKrVsUG4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 13:16:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pqpyyklspe"
+        },
+        {
+          "Name": "label",
+          "Value": "img/product/3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L8d+X1ckBcX/K/9+tzI8Vd1XlSfBkDJIZeeCKrVsUG4="
+        }
+      ]
+    },
+    {
       "Route": "img/product/4.jpg",
       "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\4.jpg",
       "Selectors": [],
@@ -196156,6 +196364,334 @@
       ]
     },
     {
+      "Route": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.9i3g5x6rjv.jpg",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 13:06:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9i3g5x6rjv"
+        },
+        {
+          "Name": "label",
+          "Value": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.jpg",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 13:06:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.9i3g5x6rjv.jpg",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 13:05:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9i3g5x6rjv"
+        },
+        {
+          "Name": "label",
+          "Value": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.jpg",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 13:05:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.9i3g5x6rjv.jpg",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 13:04:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9i3g5x6rjv"
+        },
+        {
+          "Name": "label",
+          "Value": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.jpg",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 13:04:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.9i3g5x6rjv.jpg",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 13:09:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9i3g5x6rjv"
+        },
+        {
+          "Name": "label",
+          "Value": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.jpg",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62701"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 19 Jun 2025 13:09:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PyFbzXpt1PT4WQxB2sFueDS+wME3cpSu8cbBej7sqac="
+        }
+      ]
+    },
+    {
       "Route": "img/product/testdetail_6aa7b00d.1ilm03d63p.png",
       "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\testdetail_6aa7b00d.png",
       "Selectors": [],
@@ -196562,6 +197098,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-p60PkOlWC1Hpzw0NZOUxGIfXCFU4nRWiV48w1cDO6I0="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.1hy09ti77m.jpg",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hcu9GWQcorVFNOFFZ/5pfQS2wOlGFs5Gsdvk3DSr3vw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 03:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1hy09ti77m"
+        },
+        {
+          "Name": "label",
+          "Value": "img/product/top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hcu9GWQcorVFNOFFZ/5pfQS2wOlGFs5Gsdvk3DSr3vw="
+        }
+      ]
+    },
+    {
+      "Route": "img/product/top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.jpg",
+      "AssetFile": "D:\\GitHub\\EXE\\QuatBook\\wwwroot\\img\\product\\top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hcu9GWQcorVFNOFFZ/5pfQS2wOlGFs5Gsdvk3DSr3vw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Jun 2025 03:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hcu9GWQcorVFNOFFZ/5pfQS2wOlGFs5Gsdvk3DSr3vw="
         }
       ]
     },

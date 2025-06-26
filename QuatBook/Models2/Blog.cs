@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace QuatBook.Models;
+namespace QuatBook.Models2;
 
 public partial class Blog
 {
