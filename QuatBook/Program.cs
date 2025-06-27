@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using QuatBook.Helpers;
@@ -16,6 +17,10 @@ internal class Program
 
         builder.Services.AddControllersWithViews();
 
+        // Configure Data Protection for containerized environments
+        builder.Services.AddDataProtection()
+            .PersistKeysToFileSystem(new DirectoryInfo("/app/keys"))
+            .SetApplicationName("QuatBook");
 
         builder.Services.AddDbContext<QuatBookContext>(option =>
             option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
