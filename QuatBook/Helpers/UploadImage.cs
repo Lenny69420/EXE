@@ -34,5 +34,29 @@
                 return string.Empty;
             }
         }
+
+        public static byte[] ConvertToByteArray(IFormFile imageFile)
+        {
+            if (imageFile == null || imageFile.Length == 0)
+                return null;
+
+            using (var memoryStream = new MemoryStream())
+            {
+                imageFile.CopyTo(memoryStream);
+                return memoryStream.ToArray();
+            }
+        }
+
+        public static async Task<byte[]> ConvertToByteArrayAsync(IFormFile imageFile)
+        {
+            if (imageFile == null || imageFile.Length == 0)
+                return null;
+
+            using (var memoryStream = new MemoryStream())
+            {
+                await imageFile.CopyToAsync(memoryStream);
+                return memoryStream.ToArray();
+            }
+        }
     }
 }

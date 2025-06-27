@@ -454,7 +454,7 @@ body {
 /*----------------------------------------*/
 
 .header-top-area {
-    background: #2d85e0;
+    background: #154D8D;
 }
 
 .language-area ul > li {
@@ -482,7 +482,7 @@ body {
 
 .language-area ul li a,
 .account-area ul li a {
-    color: #333;
+    color: white;
     font-size: 13px;
     text-decoration: none;
     text-transform: capitalize;
@@ -841,7 +841,7 @@ body {
 /*----------------------------------------*/
 
 .main-menu-area {
-    background: #2d85e0 none repeat scroll 0 0;
+    background: #154D8D none repeat scroll 0 0;
 }
 
     .main-menu-area.sticky {
@@ -2646,14 +2646,14 @@ a#scrollUp {
 
 .home-2 .language-area ul li a,
 .home-2 .account-area ul li a {
-    color: #fff;
+    color: white;
 }
 
     .home-2 .language-area ul li a:hover,
     .home-2 .account-area ul li a:hover,
     .home-6 .language-area ul li a:hover,
     .home-6 .account-area ul li a:hover {
-        color: #ddd;
+        color: white;
     }
 
 .home-2 .language-area ul li .header-sub ul li a,
@@ -3565,7 +3565,7 @@ nav.menu .cr-dropdown ul {
     }
 
 .home-4 .category-menu ul li a {
-    color: #333;
+    color: white;
 }
 
 .home-4 .category-menu ul li:hover > a,

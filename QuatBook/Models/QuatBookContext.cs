@@ -29,6 +29,8 @@ public partial class QuatBookContext : DbContext
 
     public virtual DbSet<Role> Roles { get; set; }
 
+    public virtual DbSet<Blog> Blogs { get; set; }
+
     //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
     //        => optionsBuilder.UseSqlServer("server =(local); database =QuatBook; uid=sa;pwd=123;Encrypt=false");
@@ -53,9 +55,14 @@ public partial class QuatBookContext : DbContext
                 .HasMaxLength(50)
                 .HasColumnName("email");
             entity.Property(e => e.Gender).HasColumnName("gender");
+            entity.Property(e => e.Image).HasColumnName("image");
             entity.Property(e => e.Password)
-                .HasMaxLength(50)
+                .HasMaxLength(255)
                 .HasColumnName("password");
+            entity.Property(e => e.Phone)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("phone");
             entity.Property(e => e.RoleId).HasColumnName("roleId");
             entity.Property(e => e.Username)
                 .HasMaxLength(50)
@@ -63,7 +70,6 @@ public partial class QuatBookContext : DbContext
 
             entity.HasOne(d => d.Role).WithMany(p => p.Accounts)
                 .HasForeignKey(d => d.RoleId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Account_Role");
         });
 
@@ -80,6 +86,18 @@ public partial class QuatBookContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("phone");
+        });
+
+        modelBuilder.Entity<Blog>(entity =>
+        {
+            entity.ToTable("Blog");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.Description).HasColumnName("description");
+            entity.Property(e => e.Image).HasColumnName("image");
+            entity.Property(e => e.Title)
+                .HasMaxLength(500)
+                .HasColumnName("title");
         });
 
         modelBuilder.Entity<Category>(entity =>
@@ -99,10 +117,26 @@ public partial class QuatBookContext : DbContext
 
             entity.Property(e => e.OrderId).HasColumnName("orderId");
             entity.Property(e => e.AccountId).HasColumnName("accountId");
+            entity.Property(e => e.Address)
+                .HasMaxLength(255)
+                .IsUnicode(false);
             entity.Property(e => e.Ammount).HasColumnName("ammount");
             entity.Property(e => e.CreateTime)
                 .HasColumnType("datetime")
                 .HasColumnName("createTime");
+            entity.Property(e => e.FullName).HasMaxLength(200);
+            entity.Property(e => e.PaymentMethod)
+                .HasMaxLength(10)
+                .IsUnicode(false);
+            entity.Property(e => e.Phone)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.Status)
+                .HasMaxLength(10)
+                .IsUnicode(false);
+            entity.Property(e => e.TransactionId)
+                .HasMaxLength(50)
+                .IsUnicode(false);
 
             entity.HasOne(d => d.Account).WithMany(p => p.Orders)
                 .HasForeignKey(d => d.AccountId)
@@ -139,6 +173,7 @@ public partial class QuatBookContext : DbContext
             entity.ToTable("Product");
 
             entity.Property(e => e.BookId).HasColumnName("bookId");
+            entity.Property(e => e.Active).HasColumnName("active");
             entity.Property(e => e.AuthorId).HasColumnName("authorId");
             entity.Property(e => e.BookName)
                 .HasMaxLength(150)

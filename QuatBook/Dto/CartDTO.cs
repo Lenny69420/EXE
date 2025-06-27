@@ -3,7 +3,7 @@
     public class CartDTO
     {
         public int bookId { get; set; }
-        public string? Image { get; set; }
+        public byte[]? Image { get; set; }
         public string BookName { get; set; } = null!;
         public double? Price { get; set; }
         public int Quantity { get; set; }

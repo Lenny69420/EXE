@@ -41,9 +41,11 @@
                 {
                     <tr>
                         <td>
-                            @if (!string.IsNullOrEmpty(detail.Product?.Image))
+                            @if (detail.Product?.Image != null && detail.Product.Image.Length > 0)
                             {
-                                <img src="~/img/product/@detail.Product.Image" alt="@detail.Product.BookName" style="width: 50px; height: 50px; object-fit: cover;" />
+                                var base64String = Convert.ToBase64String(detail.Product.Image);
+                                var imageSrc = $"data:image/jpeg;base64,{base64String}";
+                                <img src="@imageSrc" alt="@detail.Product.BookName" style="width: 50px; height: 50px; object-fit: cover;" />
                             }
                             else
                             {

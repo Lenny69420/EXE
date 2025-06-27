@@ -50,6 +50,21 @@ internal class Program
         });
         builder.Services.AddSingleton<IVnPayService, VnPayService>();
         builder.Services.AddHttpClient<IVietQRService, VietQRService>();
+
+        // Add these lines after your existing service registrations
+        builder.Services.AddHttpClient();
+        builder.Services.AddTransient<GeminiHelper>();
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("AllowLocalhost", policy =>
+            {
+                policy.WithOrigins("http://localhost:5211")
+                      .AllowAnyHeader()
+                      .AllowAnyMethod();
+            });
+        });
+
+       
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -72,6 +87,9 @@ internal class Program
             pattern: "{controller=Product}/{action=Index}/{id?}");
         // Thêm endpoint cho SignalR Hub
         app.MapHub<ProductHub>("/productHub");
+
+        // And in the app configuration section, add:
+        app.UseCors("AllowLocalhost");
         app.Run();
     }
 }
