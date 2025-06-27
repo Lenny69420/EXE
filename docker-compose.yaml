@@ -1,0 +1,58 @@
+services:
+  server:
+    build:
+      context: ./QuatBook
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "5052:5052"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://0.0.0.0:5052
+      - ASPNETCORE_DATA_PROTECTION_KEY_DIRECTORY=/app/keys
+      - ASPNETCORE_Kestrel__Limits__MaxConcurrentConnections=100
+      - ASPNETCORE_Kestrel__Limits__MaxRequestBodySize=52428800
+      - ConnectionStrings__DefaultConnection=Server=145.79.12.245,1433;Database=QuatBook;User Id=sa;Password=Mssql@123;Encrypt=false;TrustServerCertificate=true;MultipleActiveResultSets=true;Connection Timeout=30;Command Timeout=30;TrustServerCertificate=true;Integrated Security=false
+    volumes:
+      - quatbook_keys:/app/keys
+    networks:
+      - quatbook
+      - coolify
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.quatbook.rule=Host(`quatbook.tinkering.vn`)
+      - traefik.http.routers.quatbook.entrypoints=https
+      - traefik.http.routers.quatbook.tls=true
+      - traefik.http.routers.quatbook.tls.certresolver=letsencrypt
+      - traefik.http.services.quatbook.loadbalancer.server.port=5052
+      - traefik.http.middlewares.quatbook-headers.headers.customrequestheaders.X-Forwarded-Proto=https
+      - traefik.http.routers.quatbook.middlewares=quatbook-headers
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:5052/health || exit 1"]
+      interval: 30s
+      timeout: 15s
+      retries: 5
+      start_period: 120s
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '0.5'
+        reservations:
+          memory: 256M
+          cpus: '0.25'
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  quatbook:
+    driver: bridge
+  coolify: # 👈 must be declared as external
+    external: true
+
+volumes:
+  quatbook_keys:
+    driver: local
