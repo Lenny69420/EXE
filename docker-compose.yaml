@@ -20,7 +20,7 @@ services:
       - coolify
     labels:
       - traefik.enable=true
-      - traefik.http.routers.quatbook.rule=Host(`quatbook.tinkering.vn`)
+      - traefik.http.routers.quatbook.rule=Host(`airtentive.tinkering.vn`)
       - traefik.http.routers.quatbook.entrypoints=https
       - traefik.http.routers.quatbook.tls=true
       - traefik.http.routers.quatbook.tls.certresolver=letsencrypt
