@@ -73,7 +73,7 @@ namespace QuatBook.Controllers
                 //await _hubContext.Clients.All.SendAsync("RefreshProducts");
 
                 TempData["SuccessMessage"] = "Blog added successfully!";
-                return RedirectToAction("Blog", "Manager");
+                return  RedirectToAction("Shop", "Manager");
 
 
 

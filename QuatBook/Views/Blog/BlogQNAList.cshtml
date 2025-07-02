@@ -24,7 +24,18 @@
                         <div class="col-lg-12">
                             <div class="row news-lg mx-0 mb-3">
                                 <div class="col-md-3 h-100 px-0">
-                                    <img class="img-fluid" src="~/img/product/@item.Image" style="object-fit : cover;width: 300px; height: 198px;">
+                                    @if (item.Image != null && item.Image.Length > 0)
+                                    {
+                                        var base64String = Convert.ToBase64String(item.Image);
+                                        var imageSrc = $"data:image/jpeg;base64,{base64String}";
+                                        <img class="img-fluid" src="@imageSrc" alt="@item.Title" style="object-fit: cover; width: 300px; height: 198px;">
+                                    }
+                                    else
+                                    {
+                                        <img class="img-fluid" src="~/img/blog/placeholder.png" alt="@item.Title" style="object-fit: cover; width: 300px; height: 198px;">
+                                    }
+
+
                                 </div>
                                 <div class="col-md-9 d-flex flex-column border bg-white h-100 px-0">
                                     <div class="mt-auto p-4">
