@@ -4,10 +4,10 @@
     <h4 class="text-primary mb-3">Order #@Model.OrderId</h4>
     <div class="row">
         <div class="col-md-6">
-            <p><strong>Customer:</strong> @(Model.Account?.Username ?? "N/A")</p>
-            <p><strong>Total Amount:</strong> @Model.Ammount?.ToString("C")</p>
+            <p><strong>Tên khách hàng:</strong> @(Model.Account?.Username ?? "N/A")</p>
+            <p><strong>Tổng số lượng:</strong> @Model.Ammount?.ToString("C")</p>
             <p>
-                <strong>Payment Method:</strong>
+                <strong>Phương pháp thanh toán:</strong>
                 <span class="badge @(Model.PaymentMethod == "VNPAY" ? "bg-success" : "bg-warning")">
                     @Model.PaymentMethod
                 </span>
@@ -15,25 +15,26 @@
         </div>
         <div class="col-md-6">
             <p>
-                <strong>Status:</strong>
+                <strong>Trạng thái:</strong>
                 <span class="badge @(Model.Status == "Paid" ? "bg-success" : Model.Status == "Pending" ? "bg-warning" : "bg-danger")">
                     @Model.Status
                 </span>
             </p>
-            <p><strong>Created Date:</strong> @Model.CreateTime?.ToString("dd/MM/yyyy HH:mm")</p>
+            <p><strong>Tạo lúc:</strong> @Model.CreateTime?.ToString("dd/MM/yyyy HH:mm")</p>
+            <p><strong>Số điện thoại:</strong> @Model.Phone?</p>
         </div>
     </div>
 
-    <h5 class="mt-4">Order Items</h5>
+    <h5 class="mt-4">Danh sách sản phẩm</h5>
     <div class="table-responsive">
         <table class="table table-bordered table-striped">
             <thead class="table-light">
                 <tr>
-                    <th>Image</th>
-                    <th>Product</th>
-                    <th>Quantity</th>
-                    <th>Price</th>
-                    <th>Subtotal</th>
+                    <th>Ảnh</th>
+                    <th>Sản Phẩm</th>
+                    <th>Số lượng</th>
+                    <th>Giá </th>
+                    <th>Tổng giá</th>
                 </tr>
             </thead>
             <tbody>
