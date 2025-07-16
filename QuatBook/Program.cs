@@ -58,7 +58,7 @@ internal class Program
         {
             options.AddPolicy("AllowLocalhost", policy =>
             {
-                policy.WithOrigins("http://localhost:5211")
+                policy.WithOrigins("http://localhost:5211", "https://airtentive.tinkering.vn")
                       .AllowAnyHeader()
                       .AllowAnyMethod();
             });
