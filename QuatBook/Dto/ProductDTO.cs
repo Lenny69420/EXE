@@ -8,7 +8,7 @@ namespace QuatBook.Dto
 
         public string BookName { get; set; } = null!;
 
-        public string? Image { get; set; }
+        public byte[]? Image { get; set; }
 
         public double? Price { get; set; }
 
@@ -21,7 +21,7 @@ namespace QuatBook.Dto
 
         public string BookName { get; set; } = null!;
 
-        public string? Image { get; set; }
+        public byte[]? Image { get; set; }
         public string? Description { get; set; }
         public int? Quantity { get; set; }
         public double? Price { get; set; }
@@ -33,7 +33,7 @@ namespace QuatBook.Dto
     {
         public int BookId { get; set; }
         public string BookName { get; set; } = null!;
-        public string? Image { get; set; }
+        public byte[]? Image { get; set; }
         public IFormFile? ImageFile { get; set; }
         public int Quantity { get; set; }
         public double? Price { get; set; }

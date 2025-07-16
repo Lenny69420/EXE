@@ -140,7 +140,16 @@
 									{
 										<tr>
 											<td class="d-flex align-items-center gap-3">
-												<img src="~/img/product/@item.Image" class="img-fluid rounded-circle" style="width: 60px; height: 60px;" alt="@item.BookName">
+												@if (item.Image != null && item.Image.Length > 0)
+												{
+													var base64String = Convert.ToBase64String(item.Image);
+													var imageSrc = $"data:image/jpeg;base64,{base64String}";
+													<img src="@imageSrc" alt="book" />
+												}
+												else
+												{
+													<img src="~/img/book-placeholder.png" alt="book" />
+												}
 												<span>@item.BookName <strong>× @item.Quantity</strong></span>
 											</td>
 											<td>@item.Ammount.ToString("#,##0.00") VND</td>

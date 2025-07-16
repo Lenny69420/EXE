@@ -9,10 +9,10 @@ public partial class Product
 
     public string BookName { get; set; } = null!;
 
-    public string? Image { get; set; }
+    public byte[]? Image { get; set; }
 
     public int? Quantity { get; set; }
-    public bool? active { get; set; }
+
     public double? Price { get; set; }
 
     public string? Description { get; set; }
@@ -22,6 +22,8 @@ public partial class Product
     public int? AuthorId { get; set; }
 
     public DateTime? Created { get; set; }
+
+    public bool? Active { get; set; }
 
     public virtual Author? Author { get; set; }
 

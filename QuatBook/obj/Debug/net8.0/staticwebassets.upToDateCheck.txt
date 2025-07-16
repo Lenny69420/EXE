@@ -1738,6 +1738,7 @@ wwwroot\admin\vendor\jquery-easing\jquery.easing.js
 wwwroot\admin\vendor\jquery-easing\jquery.easing.min.js
 wwwroot\css\animate.css
 wwwroot\css\bootstrap.min.css
+wwwroot\css\chatbot.css
 wwwroot\css\chosen.min.css
 wwwroot\css\chosen-sprite.png
 wwwroot\css\chosen-sprite@2x.html
@@ -1789,11 +1790,14 @@ wwwroot\img\banner\5.jpg
 wwwroot\img\banner\7.jpg
 wwwroot\img\banner\8.jpg
 wwwroot\img\banner\9.jpg
+wwwroot\img\banner\airtentive_banner.png
+wwwroot\img\banner\banner_2.png
 wwwroot\img\blog\1.jpg
 wwwroot\img\blog\2.jpg
 wwwroot\img\blog\3.jpg
 wwwroot\img\blog\4.jpg
 wwwroot\img\blog\6.jpg
+wwwroot\img\blog\testdetail.png
 wwwroot\img\cart\1.jpg
 wwwroot\img\cart\2.jpg
 wwwroot\img\favicon.png
@@ -1815,7 +1819,11 @@ wwwroot\img\logo\2.png
 wwwroot\img\logo\3.png
 wwwroot\img\logo\4.png
 wwwroot\img\logo\5.png
+wwwroot\img\logo\airtentive.jpg
+wwwroot\img\logo\airtentive_2.png
+wwwroot\img\logo\airtentive_3.png
 wwwroot\img\logo\logo.png
+wwwroot\img\Mess.png
 wwwroot\img\post\1.jpg
 wwwroot\img\post\2.jpg
 wwwroot\img\post\3.jpg
@@ -1823,6 +1831,7 @@ wwwroot\img\post\4.jpg
 wwwroot\img\product\1.jpg
 wwwroot\img\product\10.jpg
 wwwroot\img\product\11.jpg
+wwwroot\img\product\1-1-768x768_4199e7b4.png
 wwwroot\img\product\13.jpg
 wwwroot\img\product\14.jpg
 wwwroot\img\product\15.jpg
@@ -1841,6 +1850,7 @@ wwwroot\img\product\27.jpg
 wwwroot\img\product\28.jpg
 wwwroot\img\product\29.jpg
 wwwroot\img\product\3.jpg
+wwwroot\img\product\3-tuyet-chieu-giup-khu-mui-am-moc-trong-phong-kin_1_82b673c6.jpg
 wwwroot\img\product\4.jpg
 wwwroot\img\product\5.jpg
 wwwroot\img\product\7.jpg
@@ -1850,6 +1860,9 @@ wwwroot\img\product\deadline1_aacb440c.jpg
 wwwroot\img\product\deadline1_f35ece0f.jpg
 wwwroot\img\product\deadline2_19d677d8.jpg
 wwwroot\img\product\deadline2_f5618f21.jpg
+wwwroot\img\product\m_y_l_c_kh_ng_kh_2 (1)_1ae758d4.png
+wwwroot\img\product\m_y_l_c_kh_ng_kh_2_fe04a5dc.png
+wwwroot\img\product\mivietnam-may-loc-khong-khi-mi-air-purifier-4-cover-3110_6efbde03.jpg
 wwwroot\img\product\nani_32aa8177.jpg
 wwwroot\img\product\nani_5e07e935.jpg
 wwwroot\img\product\nani_78f2f0c3.jpg
@@ -1867,6 +1880,16 @@ wwwroot\img\product\rua_2a0b7ee2.jpg
 wwwroot\img\product\rua_45a34581.jpg
 wwwroot\img\product\rua_46811bf1.jpg
 wwwroot\img\product\tải xuống_03cfe10b.png
+wwwroot\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_56be2849.jpg
+wwwroot\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_75d2f894.jpg
+wwwroot\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_d1e4570a.jpg
+wwwroot\img\product\Tai-sao-phong-kin-van-co-bui-Giai-phap-giu-cho-nha-luon-sach_1_e8bcccd2.jpg
+wwwroot\img\product\testdetail_6aa7b00d.png
+wwwroot\img\product\testdetail_6d68a700.png
+wwwroot\img\product\testdetail_a6f8313a.png
+wwwroot\img\product\testdetail_ae94c2c4.png
+wwwroot\img\product\testdetail_c6bbe442.png
+wwwroot\img\product\top-3-may-do-chat-luong-khong-khi-chinh-xac-nhat-hien-nay_217bc560.jpg
 wwwroot\img\product\Zalo_637309416464211285_6919bfa2.jpg
 wwwroot\img\product\Zalo_637309416464211285_9559b790.jpg
 wwwroot\img\profile\deadline1_34d31d5b.jpg
@@ -1894,6 +1917,7 @@ wwwroot\img\team\3.jpg
 wwwroot\img\team\4.jpg
 wwwroot\js\ajax-mail.js
 wwwroot\js\bootstrap.min.js
+wwwroot\js\chatbot.js
 wwwroot\js\chosen.jquery.min.js
 wwwroot\js\jquery.countdown.min.js
 wwwroot\js\jquery.counterup.min.js

@@ -97,7 +97,7 @@ namespace QuatBook.Controllers
                 {
                     bookId = product.BookId,
                     BookName = product.BookName,
-                    Image = product.Image ?? string.Empty,
+                    Image = product.Image ?? new byte[0],
                     Price = product.Price ?? 0,
                     Quantity = quantity,
                     AddedTime = DateTime.Now
