@@ -11,9 +11,9 @@
         <li class="breadcrumb-item">
             <a href="/Manager/Shop">Dashboard</a>
         </li>
-        <li class="breadcrumb-item active">Đơn Hàng</li>
+        <li class="breadcrumb-item active">Orders</li>
     </ol>
-    <h2 class="mb-4 text-primary">Quản lí đơn hàng</h2>
+    <h2 class="mb-4 text-primary">Manage Orders</h2>
 
     @if (Model.Count == 0)
     {
@@ -34,23 +34,31 @@
                         <thead class="table-dark">
                             <tr>
                                 <th>Order ID</th>
-                                <th>Khách Hàng</th>
-                                <th>Phone</th>
-                                <th>Tổng số tiền</th>
-                                <th>Phương thức thanh toán</th>
-                                <th>Trạng thái</th>
-                                <th>Ngày tạo</th>
-                                <th></th>
+                                <th>Customer</th>
+                                <th>Total Amount</th>
+                                <th>Payment Method</th>
+                                <th>Status</th>
+                                <th>Created Date</th>
+                                <th>Action</th>
                             </tr>
                         </thead>
-
+                        <tfoot class="table-dark">
+                            <tr>
+                                <th>Order ID</th>
+                                <th>Customer</th>
+                                <th>Total Amount</th>
+                                <th>Payment Method</th>
+                                <th>Status</th>
+                                <th>Created Date</th>
+                                <th>Action</th>
+                            </tr>
+                        </tfoot>
                         <tbody>
                             @foreach (var order in Model)
                             {
                                 <tr>
                                     <td>#@order.OrderId</td>
                                     <td>@(order.Account?.Username ?? "N/A")</td>
-                                    <td>@(order.Phone ?? "N/A")</td>
                                     <td>@order.Ammount?.ToString("C")</td>
                                     <td>
                                         <span class="badge @(order.PaymentMethod == "VNPAY" ? "bg-success" : "bg-warning")">
