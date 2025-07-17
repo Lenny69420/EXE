@@ -35,7 +35,7 @@
                             <tr>
                                 <th>Order ID</th>
                                 <th>Khách Hàng</th>
-                                <th>Phone</th>
+                                
                                 <th>Tổng số tiền</th>
                                 <th>Phương thức thanh toán</th>
                                 <th>Trạng thái</th>
@@ -50,7 +50,7 @@
                                 <tr>
                                     <td>#@order.OrderId</td>
                                     <td>@(order.Account?.Username ?? "N/A")</td>
-                                    <td>@(order.Phone ?? "N/A")</td>
+                                  
                                     <td>@order.Ammount?.ToString("C")</td>
                                     <td>
                                         <span class="badge @(order.PaymentMethod == "VNPAY" ? "bg-success" : "bg-warning")">

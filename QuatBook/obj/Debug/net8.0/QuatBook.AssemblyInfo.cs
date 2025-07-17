@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuatBook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+543035339541420ea1fb778b54ec4317c4bd4fdf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7f65de42d7ba3d0475fec2ed57475d2cbc15b4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuatBook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuatBook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

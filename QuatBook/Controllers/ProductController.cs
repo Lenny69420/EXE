@@ -38,7 +38,9 @@ namespace QuatBook.Controllers
                 products = products.Where(p => p.AuthorId == authorId);
             }
 
-            var result = products.Select(p => new ProductDTO
+            var result = products
+                 .OrderByDescending(p => p.BookId)
+                 .Select(p => new ProductDTO
             {
                 BookId = p.BookId,
                 BookName = p.BookName,
