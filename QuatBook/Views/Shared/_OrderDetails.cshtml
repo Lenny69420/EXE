@@ -5,6 +5,7 @@
     <div class="row">
         <div class="col-md-6">
             <p><strong>Tên khách hàng:</strong> @(Model.Account?.Username ?? "N/A")</p>
+            <p><strong>Địa chỉ:</strong> @(Model.Address ?? "N/A")</p>
             <p><strong>Tổng số lượng:</strong> @Model.Ammount?.ToString("C")</p>
             <p>
                 <strong>Phương pháp thanh toán:</strong>
